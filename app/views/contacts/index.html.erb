@@ -1,0 +1,27 @@
+<style type="text/css">
+    td,th{
+        font-size: 25px;
+    }
+    body{
+        padding-top: 10px;
+    }
+</style>
+
+
+<h1 align="center">All Messages</h1>
+
+<%= link_to "back to homepage", :root %>
+
+<table align= "center", border = "5", id="suggestions"> 
+        <th>Name</th>
+        <th>Email</th>
+        <th>Message</th>
+    <% @contacts.each do |contact| %>
+    <tr>
+        <td><%= contact.name %></td>
+        <td><%= contact.email %></td>
+        <td><%= contact.message %></td>
+    </tr>
+  <% end %>
+
+</table>

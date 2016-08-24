@@ -1,0 +1,256 @@
+<!-- Bootstrap core CSS -->
+<%= stylesheet_link_tag	'bootstrap' %>
+
+<!-- Custom styles for this template -->
+<%= stylesheet_link_tag	'main' %>
+<%= stylesheet_link_tag	'font-awesome.min' %>
+
+<!-- Javascript for this template -->
+<%= javascript_include_tag 'jquery.min.js' %>
+<%= javascript_include_tag 'modernizr.custom.js' %>
+
+
+<!-- JS CDNs -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
+<script src="http://vjs.zencdn.net/5.4.6/video.min.js"></script>
+
+<!-- Glyphicons -->
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+<!-- Menu -->
+<nav class="menu" id="theMenu">
+	<div class="menu-wrap">
+		<h1 class="logo"><a>Eric Gonzalez</a></h1>
+		<i class="icon-remove menu-close"></i>
+		<a href="#home" target = "blank" class="smoothScroll">Home</a>
+		<a href="#about" target = "blank" class="smoothScroll">About</a>
+		<a href="#portfolio" target = "blank" class="smoothScroll">Portfolio</a>
+		<a href="#contact" target = "blank" class="smoothScroll">Contact</a>
+		<a href="https://drive.google.com/file/d/0B-4Vah9LEYrLZDRTRUp2MG9XanM/view?usp=sharing" target="_blank">Resume</a>
+		<a href="https://github.com/Twinpair/" target = "blank"><i class="icon-github"></i></a>
+		<a href="https://www.linkedin.com/in/ericgonzalez1994" target = "blank"><i class="icon-linkedin"></i></a>
+		<a href="https://www.facebook.com/EricGonzalez1994" target = "blank"><i class="icon-facebook"></i></a>
+		<a href="https://twitter.com/twinpaireric" target = "blank"><i class="icon-twitter"></i></a>
+		<a href="https://www.instagram.com/ericg_1994/" target = "blank"><i class="icon-instagram"></i></a>
+	</div>
+	
+	<!-- Menu button -->
+	<div id="menuToggle"><i class="icon-reorder"></i></div>
+</nav>
+
+
+<!-- ========== HEADER SECTION ========== -->
+<section id="home" name="home"></section>
+<div id="headerwrap">
+	<div class="container">
+		<!-- <div class="logo">
+		 	<%= image_tag "profile.jpg", :class => "img-circle", :style => "width:150px;height:150px" %>
+		</div> -->
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<h1 class="wp1" style="color: #6f6fff; margin-top: 58px;">Eric Gonzalez</h1><br>
+				<h3 class="wp1" style="color: #6f6fff; margin-bottom: 20px;">Hello, and welcome to my website. Come in and learn more about me!</h3><br><br><br>
+				<a href="#about" class="smoothScroll"><%= image_tag "profile.jpg", :class => "img-circle", :style => "width:300px;height:250px" %></a>
+			</div>
+		</div>
+	</div><!-- /container -->
+</div><!-- /headerwrap -->
+
+
+
+<!-- ========== ABOUT SECTION ========== -->
+<section id="about" name="about" ></section>
+<div style="margin-top: -55px;" id="f">
+	<div class="container">
+		<div class="row">
+			<h3>ABOUT ME</h3>
+			<p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>				<!-- INTRO INFORMATIO-->
+			<div class="col-lg-6 col-lg-offset-3">
+    		<div class="col-md-4"><%= image_tag "LosAngeles.jpg", :class => "img-responsive" %></div>
+    		<p> I was born and raised in the city of Los Angeles, but now I am living in San Francisco. I am looking to work as a software engineer or web developer. I enjoy working in environments where I’m constantly needed and depended on. I am self-disciplined and always willing to learn new things to get the job done. I enjoy playing video games, watching and playing sports, or anything tech! Here is a link to my <a href="https://drive.google.com/file/d/0B-4Vah9LEYrLZDRTRUp2MG9XanM/view?usp=sharing" target="_blank">resume</a>!</p>
+			</div>								
+		</div>
+	</div><!-- /container -->
+</div><!-- /f -->
+
+
+<!-- ========== CAROUSEL SECTION ========== -->	
+<section id="portfolio" name="portfolio"></section>
+<div id="f" style="margin-top: -70px;">
+	<div class="container">
+		<div class="row centered">
+			<h3>PORTFOLIO</h3>
+			<p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
+			<div class="col-lg-6 col-lg-offset-3">
+				<!--/stories-->
+                <div class="row">  
+					<div class="col-md-2 col-sm-3 text-center">
+					  <%= image_tag "videdu.png", :class => "img-circle", :style => "width:105px;height:100px" %>
+					</div>
+					<div class="col-md-10 col-sm-9">
+						<h3>VidEdu (Ruby on Rails)<br>  _________________________</h3>
+					</div>
+					<p>Videdu is a web application built with the Ruby on Rails framework that enables users to take notes side by side with Youtube videos they want to learn from. This application has many features such as the ease of pausing videos on a keydown event, then resuming the video upon selecting the return key on the keyboard. Users shall be able to save their notes alongside their videos and add it to a category of their making. Users shall also be able to download their notes onto their local drive for later use. Users can also rate videos, write descriptions of videos, or provide summaries of the video they just watched. This website is essentially a Yelp for educational Youtube videos! </p>
+					<h4><a href = "http://www.videdu.org/" target="_blank" class = "pButton">Visit Website</a>&nbsp;&nbsp;
+		            <a href = "https://drive.google.com/file/d/0B-4Vah9LEYrLNDhjay13NXA2V1E/view?usp=sharing" target="_blank" class = "pButton">View Documentation</a>&nbsp;&nbsp;&nbsp;<a href = "https://github.com/Twinpair/VidEdu" target="_blank" class = "pButton">Source Code</a></h4>
+				</div>
+                  <hr>
+                  <div class="row">  
+					<div class="col-md-2 col-sm-3 text-center">
+					  <%= image_tag "imaguana.png", :class => "img-circle", :style => "width:105px;height:100px" %>
+					</div>
+					<div class="col-md-10 col-sm-9">
+					  	<h3>Imaguana (PHP/HTML/CSS/JS)<br>  ___________________________</h3>
+					</div>
+					<p>Imaguana is an image hosting website concerning the licensing of artist’s images. We distribute image licenses to customers that want to purchase the image rights. We focus on the customer and the artist, with only essential tasks being available at any given time. Our user centered design allows it to stand out above other image hosting sites. NOTE: This is for demonstration purposes only!</p>
+					<h4><a href = "http://imag-uana.rhcloud.com/" target="_blank" class = "pButton">Visit Website</a>&nbsp;&nbsp;
+		            <a href = "https://drive.google.com/file/d/0B-4Vah9LEYrLeXhuZG1VZ0ViMVJlV01pR1o3NGlUOEUzeW53/view" target="_blank" class = "pButton">View Documentation</a>&nbsp;&nbsp;&nbsp;<a href = "https://github.com/Twinpair/Imaguana" target="_blank" class = "pButton">Source Code</a></h4>
+		            </h4>
+				</div>
+                  <hr>
+                  <div class="row">    
+					<br>
+					<div class="col-md-2 col-sm-3 text-center">
+					  <%= image_tag "aztec_icon.png", :class => "img-circle", :style => "width:105px;height:100px" %>
+					</div>
+					<div class="col-md-10 col-sm-9">
+					    <h3>Image Resize Tool (PHP/HTML/CSS/JS)<br>  ________________________</h3>
+					</div>
+					<p>An application that lets you resize an uploaded image, either to proportion dimesnsion or custom dimensions</p>
+					<h4><a href = "http://sfsuswe.com/~twinpair/resize/" target="_blank" class = "pButton">Visit Website</a>&nbsp;&nbsp;
+					<a href = "https://github.com/Twinpair/Picture-resize-tool/" target="_blank" class = "pButton">Source Code</a></h4> 
+		  		</div>
+		  		<hr>
+		  		<div class="row">    
+					<br>
+					<div class="col-md-2 col-sm-3 text-center">
+				  		<%= image_tag "tank.png", :class => "img-circle", :style => "width:105px;height:100px" %>
+					</div>
+					<div class="col-md-10 col-sm-9">
+						<h3>Tank Wars Game (Java)<br> _______________________</h3>
+					</div>
+					<p>This is a two player game that allows you and a friend to go head to head in TANKS! The map is design for user tactics and stealthy maneuvers, it is also DESTRUCTABLE! Both players start with 3 lives. Player 1 controls are: a key(left), w key(forward), d key(right), s key(back), and space bar(shoot). Player 2 controls are: left arrow key, up arrow key(forward), right arrow key, down arrow key(back), and enter(shoot). Download the jar file to play it now!</p>
+					<h4><a href = "https://drive.google.com/file/d/0B-4Vah9LEYrLUHFUTkZFaGVvWXc/view?usp=sharing" target="_blank" class = "pButton">Play Now (Download)</a>&nbsp;&nbsp;
+                      <a href = "https://github.com/Twinpair/Tank-Wars-Game" target="_blank" class= "pButton">Source Code</a></h4>
+				</div>
+		  		<hr>
+			    <div class="row">    
+					<br>
+					<div class="col-md-2 col-sm-3 text-center">
+				  		<%= image_tag "lazarus.jpg", :class => "img-circle", :style => "width:105px;height:100px" %>
+					</div>
+					<div class="col-md-10 col-sm-9">
+				  		<h3>Lazarus Game (Java)<br>  _______________________</h3>
+					</div>
+					<p>This is a single player game about survivial! You have to try to get your lazarus character to the top of the structure, to press the stop button, without getting squished by a box. Boxes stack if they overlap each other, but they can also break if a heavier box lands over it. The box hiearchy goes as: Stone --> Metal -->  Wood --> Cardboard. The controls are: left arrow key and right arrow key. Download the jar file to play it now!</p>
+					<h4><a href = "https://drive.google.com/file/d/0B-4Vah9LEYrLTV9XejdIOElSbUk/view?usp=sharing" target="_blank" class = "pButton">Play Now (Download)</a>&nbsp;&nbsp;
+                    <a href = "https://github.com/Twinpair/Lazarus-Game" target="_blank" class = "pButton">Source Code</a></h4>
+		  		</div>
+		  		<hr>	  
+		  		<div class="row">  
+		  			<br>
+					<div class="col-md-2 col-sm-3 text-center">
+					  <%= image_tag "blogger.png", :class => "img-circle", :style => "width:105px;height:100px" %>
+					</div>
+					<div class="col-md-10 col-sm-9">
+						<h3>Blogger Application (Ruby on Rails)<br>  _______________________</h3>
+					</div>
+					<p>A simple blog application where anyone can post! No login is required to read, login/sign up will be required to post. Once logged in you can post your own blog post, comment on others blog post, or even search blog post by related tags!. </p>
+					<h4><a href = "https://ericbloggerapp.herokuapp.com/" target="_blank" class = "pButton">Visit Website</a>&nbsp;&nbsp;
+                      <a href = "https://github.com/Twinpair/The-Odin-Project/tree/master/Rails%20Application%20-%20Blogger" target="_blank" class = "pButton">Source Code</a></h4> 
+		  		</div>
+                  <hr>
+		  		<div class="row">    
+					<br>
+					<div class="col-md-2 col-sm-3 text-center">
+					  <%= image_tag "sketch.png", :class => "img-circle", :style => "width:105px;height:100px" %>
+					</div>
+					<div class="col-md-10 col-sm-9">
+					    <h3>Etch-A-Sketch (HTML/CSS/JS)<br>  ________________________</h3>
+					</div>
+					<p>A fun interactive Etch-A-Sketch made with HTML, CSS, and Javascript. You can reset and resize the table by pressing the <span style="color:#f85c37;">Clear Grid </span>button at the very top of the page!</p>
+					<h4><a href = "http://thecity.sfsu.edu/~twinpair/etchasketch.html" target="_blank" class = "pButton">Visit Website</a>&nbsp;&nbsp;
+					<a href = "https://github.com/Twinpair/The-Odin-Project/tree/master/Etch-A-Sketch" target="_blank" class = "pButton">Source Code</a></h4> 
+		  		</div>
+		  		<hr>
+		  <!--/stories-->
+			</div><!-- col-lg-8 -->
+		</div><!-- row -->
+	</div><!-- container -->
+</div>	<!-- f -->
+
+
+<!-- ========== CONTACT SECTION ========== -->
+<section id="contact" name="contact"></section>
+<div style="margin-top: -70px;" id="f">
+	<div class="container">
+		<div class="row">
+			<h3>CONTACT ME</h3>
+			<p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
+			<div class="col-lg-6 col-lg-offset-3">
+              	<p>Feel free to contact me through email or any options listed below. &nbsp&nbsp&nbsp&nbspAlso, don't forget to check out my <a href="https://drive.google.com/file/d/0B-4Vah9LEYrLZDRTRUp2MG9XanM/view?usp=sharing" target="_blank">resume</a>.</p>
+              	<p><span style="color:#f85c37;">Email: Twinpaireric@gmail.com<br>Phone: (415)490-6568</span></p>
+                  <nav id="social">
+              		<ul class="social-buttons">
+	                    <li><a title = "Github" href="https://github.com/Twinpair/" target="_blank"><i class="fa fa-github" id = "githubcircle"></i></a></li>
+	                    <li><a title = "Linked In" href="https://www.linkedin.com/in/ericgonzalez1994" target="_blank"><i class="fa fa-linkedin" id = "linkedincircle"></i></a></li>
+	                    <li><a title = "Facebook" href="https://www.facebook.com/EricGonzalez1994" target="_blank"><i class="fa fa-facebook" id = "facebookcircle"></i></a></li>
+	                    <li><a title = "Twitter" href="https://twitter.com/twinpaireric" target="_blank"><i class="fa fa-twitter" id = "twittercircle"></i></a></li>
+	                    <li><a title = "Instagram" href="https://www.instagram.com/ericg_1994/" target="_blank"><i class="fa fa-instagram" id = "instagramcircle"></i></a></li>
+              		</ul>
+  				</nav>
+              	<p style = "color: white;">
+  				You can also leave me a message below: <!-- (Required <span style="color:#f85c37;">* </span>) --></p>
+				<%= form_for @contact do |f| %>
+			        <div class="row control-group">
+			            <div class="form-group col-xs-12 floating-label-form-group controls">
+			            <div style="color:#f85c37;"><%= f.label :name, :style => "color: #fff5f5;" %>&nbsp;*</div>
+			            <%= f.text_field :name, :type => "text", :class => "form-control", :placeholder => "Name", :id => "name", :required => true %>
+			            </div>
+			        </div>
+			        <div class="row control-group">
+			            <div class="form-group col-xs-12 floating-label-form-group controls">
+			                <div style="color:#f85c37;"><%= f.label :email, :style => "color: #fff5f5;" %>&nbsp*</div>
+			                <%= f.text_field :email, :type => "email", :class => "form-control", :placeholder => "Email Address", :id => "email", :required => true %>
+			            </div>
+			        </div>
+			        <div class="row control-group">
+			            <div class="form-group col-xs-12 floating-label-form-group controls">
+			                <div style="color:#f85c37;"><%= f.label :message, :style => "color: #fff5f5;" %>&nbsp*</div>
+			                <%= f.text_area :message, :rows => "5", :class => "form-control", :placeholder => "Message", :id => "message", :required => true %>
+			            </div>
+			        </div>
+			        <div class="row">
+			            <div class="form-group col-xs-12">
+			                <%= f.submit "Submit", :type => "submit", :class => "btn btn-success btn-lg" %>
+			            </div>
+			        </div>
+			    <% end %>
+			</div>
+		</div>
+	</div>
+</div>
+<nav id="footer">
+      <div class="container">
+          <div class="pull-left fnav">
+              <p>ALL RIGHTS RESERVED. Eric Gonzalez © 2016</p>
+          </div>
+          <div class="pull-right fnav">
+              <ul class="footer-social">
+                  <li><a href="https://github.com/Twinpair/Personal-Website" target="_blank">View Source Code Here</a></li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+
+
+
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+<%= javascript_include_tag 'classie.js' %>
+<%= javascript_include_tag 'bootstrap.min.js' %>
+<%= javascript_include_tag 'smoothscroll.js' %>
+<%= javascript_include_tag 'main.js' %>
+

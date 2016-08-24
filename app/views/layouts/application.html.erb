@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Website</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
+  <head>
+    <title>Eric Gonzalez</title>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Personal website" content="">
+    <meta name="Eric Gonzalez" content="">
+    <%= favicon_link_tag 'favicon.ico' %>
 
-<%= yield %>
+    <!-- Fonts -->
+    <link href='//fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>   
+  </head>
+  <body data-spy="scroll" data-offset="0" data-target="#theMenu">
 
-</body>
+  <%= yield %>
+
+  </body>
 </html>
