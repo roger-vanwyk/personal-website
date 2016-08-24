@@ -11,6 +11,7 @@ Rails.application.config.assets.version = '1.0'
 # Rails.application.config.assets.precompile += %w( search.js )
 
 Rails.application.config.assets.precompile += %w( profile.jpg )
+Rails.application.config.assets.precompile += %w( lego.jpg )
 Rails.application.config.assets.precompile += %w( videdu.png )
 Rails.application.config.assets.precompile += %w( blogger.png )
 Rails.application.config.assets.precompile += %w( lazarus.jpg )
@@ -32,7 +33,6 @@ Rails.application.config.assets.precompile += %w( smoothscroll.js )
 Rails.application.config.assets.precompile += %w( favicon.ico )
 Rails.application.config.assets.precompile += %w( jquery.waypoints.min.js )
 Rails.application.config.assets.precompile += %w( scripts-min.js )
-
 Rails.application.config.assets.precompile += %w( bootstrap.min.css )
 Rails.application.config.assets.precompile += %w( animate.min.css )
 Rails.application.config.assets.precompile += %w( styles.css )
