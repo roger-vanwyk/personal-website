@@ -28395,3 +28395,16 @@ Started GET "/assets/lego.jpg" for ::1 at 2016-10-27 19:52:17 -0700
 
 
 Started GET "/assets/favicon-14fe64a8fe6b22f0b1f3c45c1e0140caa4b7dbb5edec2418aed5f707400b9d99.ico" for ::1 at 2016-10-27 19:52:17 -0700
+
+
+Started GET "/" for ::1 at 2016-10-27 20:02:47 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (1967.7ms)
+Completed 200 OK in 2354ms (Views: 2324.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/projects.self-9f55a340331c6a134972a5bef4ba0e0ae138c505e386edc4f611aac1bdbc5bc7.css?body=1" for ::1 at 2016-10-27 20:02:50 -0700
+
+
+Started GET "/assets/lego.jpg" for ::1 at 2016-10-27 20:02:50 -0700
