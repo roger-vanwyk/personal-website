@@ -25,3 +25,6 @@ log
 .byebug_history
 /.byebug_history
 /byebug_history
+
+#Ignore development log
+log/development.log
