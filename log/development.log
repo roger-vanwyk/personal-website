@@ -28680,3 +28680,518 @@ Completed 200 OK in 24ms (Views: 22.6ms | ActiveRecord: 0.0ms)
 
 Started GET "/assets/lego.jpg" for ::1 at 2017-03-15 16:17:46 -0700
 Started GET "/assets/favicon-14fe64a8fe6b22f0b1f3c45c1e0140caa4b7dbb5edec2418aed5f707400b9d99.ico" for ::1 at 2017-03-15 16:17:46 -0700
+Started GET "/" for ::1 at 2017-03-15 16:27:48 -0700
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/activerecord-5.0.1/lib/active_record/railtie.rb:113)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (154.6ms)
+Completed 200 OK in 203ms (Views: 179.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/lego.jpg" for ::1 at 2017-03-15 16:27:48 -0700
+Started GET "/assets/favicon-14fe64a8fe6b22f0b1f3c45c1e0140caa4b7dbb5edec2418aed5f707400b9d99.ico" for ::1 at 2017-03-15 16:27:49 -0700
+Started GET "/" for ::1 at 2017-03-15 16:29:53 -0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 20ms (Views: 18.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lego.jpg" for ::1 at 2017-03-15 16:29:53 -0700
+Started GET "/assets/favicon-14fe64a8fe6b22f0b1f3c45c1e0140caa4b7dbb5edec2418aed5f707400b9d99.ico" for ::1 at 2017-03-15 16:29:53 -0700
+Started GET "/" for ::1 at 2017-03-15 16:30:35 -0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 21ms (Views: 19.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lego.jpg" for ::1 at 2017-03-15 16:30:35 -0700
+Started GET "/assets/favicon-14fe64a8fe6b22f0b1f3c45c1e0140caa4b7dbb5edec2418aed5f707400b9d99.ico" for ::1 at 2017-03-15 16:30:35 -0700
+Started GET "/" for ::1 at 2017-03-15 16:31:00 -0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 20ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lego.jpg" for ::1 at 2017-03-15 16:31:00 -0700
+Started GET "/assets/favicon-14fe64a8fe6b22f0b1f3c45c1e0140caa4b7dbb5edec2418aed5f707400b9d99.ico" for ::1 at 2017-03-15 16:31:00 -0700
+Started GET "/" for ::1 at 2017-03-15 16:31:20 -0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 21ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lego.jpg" for ::1 at 2017-03-15 16:31:20 -0700
+Started GET "/assets/favicon-14fe64a8fe6b22f0b1f3c45c1e0140caa4b7dbb5edec2418aed5f707400b9d99.ico" for ::1 at 2017-03-15 16:31:20 -0700
+Started GET "/" for ::1 at 2017-03-15 16:32:41 -0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 22ms (Views: 20.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lego.jpg" for ::1 at 2017-03-15 16:32:42 -0700
+Started GET "/assets/favicon-14fe64a8fe6b22f0b1f3c45c1e0140caa4b7dbb5edec2418aed5f707400b9d99.ico" for ::1 at 2017-03-15 16:32:42 -0700
+Started GET "/" for ::1 at 2017-03-15 16:33:10 -0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 23ms (Views: 21.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lego.jpg" for ::1 at 2017-03-15 16:33:11 -0700
+Started GET "/assets/favicon-14fe64a8fe6b22f0b1f3c45c1e0140caa4b7dbb5edec2418aed5f707400b9d99.ico" for ::1 at 2017-03-15 16:33:11 -0700
+Started GET "/" for ::1 at 2017-03-15 16:42:03 -0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 73ms (Views: 71.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gonzaelectric.png" for ::1 at 2017-03-15 16:42:03 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/gonzaelectric.png"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+rack (2.0.1) lib/rack/handler/webrick.rb:86:in `service'
+/Users/eric/.rvm/rubies/ruby-2.4.0-rc1/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+/Users/eric/.rvm/rubies/ruby-2.4.0-rc1/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+/Users/eric/.rvm/rubies/ruby-2.4.0-rc1/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+Started GET "/assets/lego.jpg" for ::1 at 2017-03-15 16:42:03 -0700
+  Rendering /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered collection of /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [9 times] (4.5ms)
+  Rendered /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendering /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (99.8ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendering /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendering /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendering /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers_eric__rvm_gems_ruby_______rc__gems_web_console_______lib_web_console_templates_console_js_erb__75501070493455472_70313232846020 at /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (95.9ms)
+  Rendering /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendering /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (192.7ms)
+Started GET "/assets/favicon-14fe64a8fe6b22f0b1f3c45c1e0140caa4b7dbb5edec2418aed5f707400b9d99.ico" for ::1 at 2017-03-15 16:42:04 -0700
+Started GET "/" for ::1 at 2017-03-15 16:42:09 -0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 31ms (Views: 29.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lego.jpg" for ::1 at 2017-03-15 16:42:09 -0700
+Started GET "/gonzaelectric.png" for ::1 at 2017-03-15 16:42:09 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/gonzaelectric.png"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+rack (2.0.1) lib/rack/handler/webrick.rb:86:in `service'
+/Users/eric/.rvm/rubies/ruby-2.4.0-rc1/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+/Users/eric/.rvm/rubies/ruby-2.4.0-rc1/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+/Users/eric/.rvm/rubies/ruby-2.4.0-rc1/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+  Rendering /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered collection of /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [9 times] (3.0ms)
+  Rendered /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendering /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (95.9ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendering /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers_eric__rvm_gems_ruby_______rc__gems_web_console_______lib_web_console_templates_console_js_erb__75501070493455472_70313200845600 at /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (50.2ms)
+  Rendering /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendering /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (122.3ms)
+Started GET "/assets/favicon-14fe64a8fe6b22f0b1f3c45c1e0140caa4b7dbb5edec2418aed5f707400b9d99.ico" for ::1 at 2017-03-15 16:42:09 -0700
+Started GET "/" for ::1 at 2017-03-15 16:42:42 -0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 24ms (Views: 22.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gonzaelectric.png" for ::1 at 2017-03-15 16:42:42 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/gonzaelectric.png"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+rack (2.0.1) lib/rack/handler/webrick.rb:86:in `service'
+/Users/eric/.rvm/rubies/ruby-2.4.0-rc1/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+/Users/eric/.rvm/rubies/ruby-2.4.0-rc1/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+/Users/eric/.rvm/rubies/ruby-2.4.0-rc1/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+Started GET "/assets/lego.jpg" for ::1 at 2017-03-15 16:42:42 -0700
+  Rendering /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered collection of /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [9 times] (3.0ms)
+  Rendered /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendering /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (78.5ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendering /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendering /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendering /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers_eric__rvm_gems_ruby_______rc__gems_web_console_______lib_web_console_templates_console_js_erb__75501070493455472_70313241153240 at /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (70.2ms)
+  Rendering /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendering /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (152.6ms)
+Started GET "/assets/favicon-14fe64a8fe6b22f0b1f3c45c1e0140caa4b7dbb5edec2418aed5f707400b9d99.ico" for ::1 at 2017-03-15 16:42:42 -0700
+Started GET "/" for ::1 at 2017-03-15 16:42:54 -0700
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/activerecord-5.0.1/lib/active_record/railtie.rb:113)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (212.8ms)
+Completed 200 OK in 262ms (Views: 240.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/lego.jpg" for ::1 at 2017-03-15 16:42:55 -0700
+Started GET "/gonzaelectric.png" for ::1 at 2017-03-15 16:42:55 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/gonzaelectric.png"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+rack (2.0.1) lib/rack/handler/webrick.rb:86:in `service'
+/Users/eric/.rvm/rubies/ruby-2.4.0-rc1/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+/Users/eric/.rvm/rubies/ruby-2.4.0-rc1/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+/Users/eric/.rvm/rubies/ruby-2.4.0-rc1/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+  Rendering /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered collection of /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [9 times] (4.9ms)
+  Rendered /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.4ms)
+  Rendering /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (90.9ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendering /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendering /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendering /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers_eric__rvm_gems_ruby_______rc__gems_web_console_______lib_web_console_templates_console_js_erb___4132517304742491187_70143264826740 at /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (66.7ms)
+  Rendering /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendering /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (147.8ms)
+Started GET "/assets/favicon-14fe64a8fe6b22f0b1f3c45c1e0140caa4b7dbb5edec2418aed5f707400b9d99.ico" for ::1 at 2017-03-15 16:42:55 -0700
+Started GET "/" for ::1 at 2017-03-15 16:43:34 -0700
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/activerecord-5.0.1/lib/active_record/railtie.rb:113)
+  [1m[36mActiveRecord::SchemaMigration Load (1.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (222.6ms)
+Completed 200 OK in 304ms (Views: 281.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/lego.jpg" for ::1 at 2017-03-15 16:43:35 -0700
+Started GET "/assets/gonzaelectric-045c7e3125f61b09dd9cfe52a6de5479df5e46f0669ea913a0533152b790e41a.png" for ::1 at 2017-03-15 16:43:35 -0700
+Started GET "/assets/favicon-14fe64a8fe6b22f0b1f3c45c1e0140caa4b7dbb5edec2418aed5f707400b9d99.ico" for ::1 at 2017-03-15 16:43:35 -0700
+Started GET "/" for ::1 at 2017-03-15 16:49:28 -0700
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/eric/.rvm/gems/ruby-2.4.0-rc1/gems/activerecord-5.0.1/lib/active_record/railtie.rb:113)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (174.3ms)
+Completed 200 OK in 227ms (Views: 204.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/gonzaelectric-03f6e94abd9acf9950e14cd5e7a84b8a012d1e83441e5628f9c97416e1c7f37c.png" for ::1 at 2017-03-15 16:49:28 -0700
+Started GET "/assets/lego.jpg" for ::1 at 2017-03-15 16:49:28 -0700
+Started GET "/assets/favicon-14fe64a8fe6b22f0b1f3c45c1e0140caa4b7dbb5edec2418aed5f707400b9d99.ico" for ::1 at 2017-03-15 16:49:28 -0700
+Started GET "/" for ::1 at 2017-03-15 16:53:37 -0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 22ms (Views: 20.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lego.jpg" for ::1 at 2017-03-15 16:53:37 -0700
+Started GET "/assets/favicon-14fe64a8fe6b22f0b1f3c45c1e0140caa4b7dbb5edec2418aed5f707400b9d99.ico" for ::1 at 2017-03-15 16:53:37 -0700
+Started GET "/" for ::1 at 2017-03-15 16:56:02 -0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 21ms (Views: 19.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lego.jpg" for ::1 at 2017-03-15 16:56:03 -0700
+Started GET "/assets/favicon-14fe64a8fe6b22f0b1f3c45c1e0140caa4b7dbb5edec2418aed5f707400b9d99.ico" for ::1 at 2017-03-15 16:56:03 -0700
+Started GET "/" for ::1 at 2017-03-15 16:59:59 -0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 22ms (Views: 19.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lego.jpg" for ::1 at 2017-03-15 17:00:00 -0700
+Started GET "/assets/favicon-14fe64a8fe6b22f0b1f3c45c1e0140caa4b7dbb5edec2418aed5f707400b9d99.ico" for ::1 at 2017-03-15 17:00:00 -0700
+Started GET "/" for ::1 at 2017-03-15 17:01:23 -0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 22ms (Views: 19.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lego.jpg" for ::1 at 2017-03-15 17:01:23 -0700
+Started GET "/assets/favicon-14fe64a8fe6b22f0b1f3c45c1e0140caa4b7dbb5edec2418aed5f707400b9d99.ico" for ::1 at 2017-03-15 17:01:23 -0700
+Started GET "/" for ::1 at 2017-03-15 17:02:12 -0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 36ms (Views: 34.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lego.jpg" for ::1 at 2017-03-15 17:02:13 -0700
+Started GET "/assets/favicon-14fe64a8fe6b22f0b1f3c45c1e0140caa4b7dbb5edec2418aed5f707400b9d99.ico" for ::1 at 2017-03-15 17:02:13 -0700
+Started GET "/" for ::1 at 2017-03-15 17:03:19 -0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 22ms (Views: 20.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lego.jpg" for ::1 at 2017-03-15 17:03:19 -0700
+Started GET "/assets/favicon-14fe64a8fe6b22f0b1f3c45c1e0140caa4b7dbb5edec2418aed5f707400b9d99.ico" for ::1 at 2017-03-15 17:03:19 -0700
+Started GET "/" for ::1 at 2017-03-15 17:05:25 -0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 21ms (Views: 19.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lego.jpg" for ::1 at 2017-03-15 17:05:25 -0700
+Started GET "/assets/favicon-14fe64a8fe6b22f0b1f3c45c1e0140caa4b7dbb5edec2418aed5f707400b9d99.ico" for ::1 at 2017-03-15 17:05:26 -0700
+Started GET "/" for ::1 at 2017-03-15 17:05:50 -0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 23ms (Views: 21.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lego.jpg" for ::1 at 2017-03-15 17:05:50 -0700
+Started GET "/assets/favicon-14fe64a8fe6b22f0b1f3c45c1e0140caa4b7dbb5edec2418aed5f707400b9d99.ico" for ::1 at 2017-03-15 17:05:50 -0700
+Started GET "/" for ::1 at 2017-03-15 17:05:59 -0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 29ms (Views: 27.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lego.jpg" for ::1 at 2017-03-15 17:06:00 -0700
+Started GET "/assets/favicon-14fe64a8fe6b22f0b1f3c45c1e0140caa4b7dbb5edec2418aed5f707400b9d99.ico" for ::1 at 2017-03-15 17:06:00 -0700
+Started GET "/" for ::1 at 2017-03-15 17:06:14 -0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 23ms (Views: 21.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lego.jpg" for ::1 at 2017-03-15 17:06:14 -0700
+Started GET "/assets/favicon-14fe64a8fe6b22f0b1f3c45c1e0140caa4b7dbb5edec2418aed5f707400b9d99.ico" for ::1 at 2017-03-15 17:06:14 -0700
+Started GET "/" for ::1 at 2017-03-15 17:06:26 -0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 26ms (Views: 24.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lego.jpg" for ::1 at 2017-03-15 17:06:26 -0700
+Started GET "/assets/favicon-14fe64a8fe6b22f0b1f3c45c1e0140caa4b7dbb5edec2418aed5f707400b9d99.ico" for ::1 at 2017-03-15 17:06:26 -0700
+Started GET "/" for ::1 at 2017-03-15 17:06:35 -0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 34ms (Views: 32.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lego.jpg" for ::1 at 2017-03-15 17:06:35 -0700
+Started GET "/assets/favicon-14fe64a8fe6b22f0b1f3c45c1e0140caa4b7dbb5edec2418aed5f707400b9d99.ico" for ::1 at 2017-03-15 17:06:35 -0700
+Started GET "/" for ::1 at 2017-03-15 17:06:42 -0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 21ms (Views: 19.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lego.jpg" for ::1 at 2017-03-15 17:06:42 -0700
+Started GET "/assets/favicon-14fe64a8fe6b22f0b1f3c45c1e0140caa4b7dbb5edec2418aed5f707400b9d99.ico" for ::1 at 2017-03-15 17:06:43 -0700
+Started GET "/" for ::1 at 2017-03-15 17:07:28 -0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 21ms (Views: 19.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lego.jpg" for ::1 at 2017-03-15 17:07:28 -0700
+Started GET "/assets/favicon-14fe64a8fe6b22f0b1f3c45c1e0140caa4b7dbb5edec2418aed5f707400b9d99.ico" for ::1 at 2017-03-15 17:07:28 -0700
+Started GET "/" for ::1 at 2017-03-15 17:07:38 -0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 21ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lego.jpg" for ::1 at 2017-03-15 17:07:38 -0700
+Started GET "/assets/favicon-14fe64a8fe6b22f0b1f3c45c1e0140caa4b7dbb5edec2418aed5f707400b9d99.ico" for ::1 at 2017-03-15 17:07:38 -0700
+Started GET "/" for ::1 at 2017-03-15 17:09:40 -0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 20ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lego.jpg" for ::1 at 2017-03-15 17:09:40 -0700
+Started GET "/assets/favicon-14fe64a8fe6b22f0b1f3c45c1e0140caa4b7dbb5edec2418aed5f707400b9d99.ico" for ::1 at 2017-03-15 17:09:41 -0700
+Started GET "/" for ::1 at 2017-03-15 17:10:09 -0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 20ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lego.jpg" for ::1 at 2017-03-15 17:10:10 -0700
+Started GET "/assets/favicon-14fe64a8fe6b22f0b1f3c45c1e0140caa4b7dbb5edec2418aed5f707400b9d99.ico" for ::1 at 2017-03-15 17:10:10 -0700
+Started GET "/" for ::1 at 2017-03-15 17:10:45 -0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 21ms (Views: 19.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lego.jpg" for ::1 at 2017-03-15 17:10:46 -0700
+Started GET "/assets/favicon-14fe64a8fe6b22f0b1f3c45c1e0140caa4b7dbb5edec2418aed5f707400b9d99.ico" for ::1 at 2017-03-15 17:10:46 -0700
+Started GET "/" for ::1 at 2017-03-15 17:10:52 -0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 25ms (Views: 23.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lego.jpg" for ::1 at 2017-03-15 17:10:53 -0700
+Started GET "/assets/favicon-14fe64a8fe6b22f0b1f3c45c1e0140caa4b7dbb5edec2418aed5f707400b9d99.ico" for ::1 at 2017-03-15 17:10:53 -0700
+Started GET "/" for ::1 at 2017-03-15 17:11:56 -0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 23ms (Views: 21.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lego.jpg" for ::1 at 2017-03-15 17:11:56 -0700
+Started GET "/assets/favicon-14fe64a8fe6b22f0b1f3c45c1e0140caa4b7dbb5edec2418aed5f707400b9d99.ico" for ::1 at 2017-03-15 17:11:56 -0700
