@@ -29195,3 +29195,21 @@ Completed 200 OK in 23ms (Views: 21.7ms | ActiveRecord: 0.0ms)
 
 Started GET "/assets/lego.jpg" for ::1 at 2017-03-15 17:11:56 -0700
 Started GET "/assets/favicon-14fe64a8fe6b22f0b1f3c45c1e0140caa4b7dbb5edec2418aed5f707400b9d99.ico" for ::1 at 2017-03-15 17:11:56 -0700
+Started GET "/" for ::1 at 2017-03-15 17:19:57 -0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (31.3ms)
+Completed 200 OK in 49ms (Views: 47.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/profile-ab8e741815400c1592a444f529ad9d92489853d25c2f48d42ca5446577a65c42.jpg" for ::1 at 2017-03-15 17:19:57 -0700
+Started GET "/assets/eventor-d3caf53a98e56b92e88ab95e7bf5d25170c3db3091056d6a6c9c7c5d1b2c69a0.png" for ::1 at 2017-03-15 17:19:57 -0700
+Started GET "/assets/imaguana-5bcaa2d463404fec1efdde89180fa12bef6465aaee48f152555523cd03e32c4e.png" for ::1 at 2017-03-15 17:19:57 -0700
+Started GET "/assets/videdu-bbda99f679952760d9cefce14d433bd3c1b2b09c36c0da97a5cfd443ea28668f.png" for ::1 at 2017-03-15 17:19:57 -0700
+Started GET "/assets/lego.jpg" for ::1 at 2017-03-15 17:19:57 -0700
+Started GET "/assets/tank-8f7a96c63535604b3a81b5e2d7debc32584f80929b4a760b8c079e1c361f6667.png" for ::1 at 2017-03-15 17:19:57 -0700
+Started GET "/assets/lazarus-941dc60793889071d5e1f332d85b0e28b36f802990f3aa97a73f60533a2b227a.jpg" for ::1 at 2017-03-15 17:19:57 -0700
+Started GET "/assets/sketch-997cb508b68685dfb38883f83e995ecfc4fb2053380c38f2cdc61246fe8e05c3.png" for ::1 at 2017-03-15 17:19:57 -0700
+Started GET "/assets/acquaintion-ab6c9373c4a5e85a393e376a09a2aa93ffa7feb19651c12703cb6f70e6b27363.png" for ::1 at 2017-03-15 17:19:57 -0700
+Started GET "/assets/blogger-c61c96166b956b4cdaa57142127857b22ea67b524f20e02786bea150094186a3.png" for ::1 at 2017-03-15 17:19:57 -0700
+Started GET "/assets/favicon-14fe64a8fe6b22f0b1f3c45c1e0140caa4b7dbb5edec2418aed5f707400b9d99.ico" for ::1 at 2017-03-15 17:19:58 -0700
