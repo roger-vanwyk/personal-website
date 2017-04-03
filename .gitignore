@@ -27,4 +27,10 @@ log
 /byebug_history
 
 #Ignore development log
-log/development.log
+development.log
+
+#Ignore DS_store
+.DS_Store
+
+Ignore gitignore.swp
+.gitignore.swp
