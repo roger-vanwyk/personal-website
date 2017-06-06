@@ -11,6 +11,11 @@ class ContactsController < ApplicationController
 		redirect_to :root
   end
 
+  def destroy
+    Contact.find(params[:id]).destroy
+    redirect_to contacts_url
+  end
+
 private
 
   def contact_params

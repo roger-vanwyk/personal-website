@@ -4,16 +4,20 @@
       <h1><u>All Messages</u></h1>
     </div>
     <div class="row">
-      <div class="col-lg-4 col-md-4 col-sm-4">Name</div>
-      <div class="col-lg-4 col-md-4 col-sm-4">Email</div>
-      <div class="col-lg-4 col-md-4 col-sm-4">Message</div>
+      <div class="col-lg-2 col-md-2">Name</div>
+      <div class="col-lg-2 col-md-2">Email</div>
+      <div class="col-lg-4 col-md-4">Message</div>
+      <div class="col-lg-2 col-md-2">Date</div>
+      <div class="col-lg-2 col-md-2">Delete</div>
     </div>
     <hr>
     <% @contacts.each do |contact| %>
       <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-4"><%= contact.name %></div>
-        <div class="col-lg-4 col-md-4 col-sm-4"><%= contact.email %></div>
-        <div class="col-lg-4 col-md-4 col-sm-4"><%= contact.message %></div>
+        <div class="col-lg-2 col-md-2"><%= contact.name %></div>
+        <div class="col-lg-2 col-md-2"><%= contact.email %></div>
+        <div class="col-lg-4 col-md-4"><%= contact.message %></div>
+        <div class="col-lg-2 col-md-2"><%= contact.created_at.strftime("%B %d, %Y")%></div>
+        <div class="col-lg-2 col-md-2"><%= link_to "Delete", contact, method: :delete, data: { confirm: "You sure?" } %></div>
       </div>
       <hr>
     <% end %>
