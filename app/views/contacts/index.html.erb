@@ -1,27 +1,20 @@
-<style type="text/css">
-    td,th{
-        font-size: 25px;
-    }
-    body{
-        padding-top: 10px;
-    }
-</style>
-
-
-<h1 align="center">All Messages</h1>
-
-<%= link_to "back to homepage", :root %>
-
-<table align= "center", border = "5", id="suggestions"> 
-        <th>Name</th>
-        <th>Email</th>
-        <th>Message</th>
+<%= link_to "Back to Homepage", :root %>
+  <div class="container" id="messages" align="center">
+    <div class="row">
+      <h1><u>All Messages</u></h1>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-md-4 col-sm-4">Name</div>
+      <div class="col-lg-4 col-md-4 col-sm-4">Email</div>
+      <div class="col-lg-4 col-md-4 col-sm-4">Message</div>
+    </div>
+    <hr>
     <% @contacts.each do |contact| %>
-    <tr>
-        <td><%= contact.name %></td>
-        <td><%= contact.email %></td>
-        <td><%= contact.message %></td>
-    </tr>
-  <% end %>
-
-</table>
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-4"><%= contact.name %></div>
+        <div class="col-lg-4 col-md-4 col-sm-4"><%= contact.email %></div>
+        <div class="col-lg-4 col-md-4 col-sm-4"><%= contact.message %></div>
+      </div>
+      <hr>
+    <% end %>
+  </div>
