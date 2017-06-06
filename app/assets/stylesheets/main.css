@@ -185,12 +185,8 @@ a:after {
 	letter-spacing: 0.15em;
 	line-height: 40px;
 	text-transform: uppercase;
-	color: #ffffff;
-	margin-top: 20px;
-}
-
-.menu h1.logo a:hover {
 	color: #f85c37;
+	margin-top: 20px;
 }
 
 .menu img.logo {
@@ -200,7 +196,7 @@ a:after {
 
 .menu a {
 	margin-left: 20px;
-	color: #808080;
+	color: white;
 	display: block;
 	font-size: 12px;
 	font-weight: 700;
@@ -210,7 +206,7 @@ a:after {
 }
 
 .menu a:hover {
-	color: #ffffff;
+	color: #f85c37;
 }
 
 .menu a:active {
