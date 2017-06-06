@@ -244,29 +244,42 @@
             </nav>
             <p style = "color: white;">You can also leave me a message below:</p>
             <%= form_for @contact do |f| %>
-              <div class="row control-group">
-                <div class="form-group col-xs-12 floating-label-form-group controls">
-                  <%= f.label :name, :style => "color: #fff5f5;" %> <span style="color:#f85c37;">*</span>
-                  <%= f.text_field :name, :type => "text", :class => "form-control", :placeholder => "Name", :id => "name", :required => true %>
+              <% if flash.key?("success") %>
+                <% flash.each do |message_type, message| %>
+                  <%= content_tag(:div, message, class: "alert alert-#{message_type} text-center", id: "body-up") %>
+                <% end %>
+              <% else %>
+                <div class="row control-group">
+                  <div class="form-group col-xs-12 floating-label-form-group controls">
+                    <%= f.label :name, :style => "color: #fff5f5;" %> <span style="color:#f85c37;">*</span>
+                    <%= f.text_field :name, :type => "text", :class => "form-control", :placeholder => "Name", :id => "name", :required => true %>
+                  </div>
                 </div>
-              </div>
-              <div class="row control-group">
-                <div class="form-group col-xs-12 floating-label-form-group controls">
-                  <%= f.label :email, :style => "color: #fff5f5;" %> <span style="color:#f85c37;">*</span>
-                  <%= f.text_field :email, :type => "email", :class => "form-control", :placeholder => "Email Address", :id => "email", :required => true %>
+                <div class="row control-group">
+                  <div class="form-group col-xs-12 floating-label-form-group controls">
+                    <%= f.label :email, :style => "color: #fff5f5;" %> <span style="color:#f85c37;">*</span>
+                    <%= f.text_field :email, :type => "email", :class => "form-control", :placeholder => "Email Address", :id => "email", :required => true %>
+                  </div>
                 </div>
-              </div>
-              <div class="row control-group">
-                <div class="form-group col-xs-12 floating-label-form-group controls">
-                  <%= f.label :message, :style => "color: #fff5f5;" %> <span style="color:#f85c37;">*</span>
-                  <%= f.text_area :message, :rows => "5", :class => "form-control", :placeholder => "Message", :id => "message", :required => true %>
+                <div class="row control-group">
+                  <div class="form-group col-xs-12 floating-label-form-group controls">
+                    <%= f.label :message, :style => "color: #fff5f5;" %> <span style="color:#f85c37;">*</span>
+                    <%= f.text_area :message, :rows => "5", :class => "form-control", :placeholder => "Message", :id => "message", :required => true %>
+                  </div>
                 </div>
-              </div>
-              <div class="row">
-                <div class="form-group col-xs-12">
-                  <%= f.submit "Submit", :type => "submit", :class => "btn btn-success btn-lg" %>
+                <div class="row control-group">
+                  <div class="form-group col-xs-12 floating-label-form-group controls">
+                    <%= f.label :captcha, :style => "color: #fff5f5;" %> <span style="color:#f85c37;">*</span><br>
+                    <%= image_tag("captcha.png") %><br><br>
+                    <%= f.text_field :captcha, :type => "text", :class => "form-control", :placeholder => "Enter the text shown in the image", :id => "captcha", :required => true %>
+                  </div>
                 </div>
-              </div>
+                <div class="row">
+                  <div class="form-group col-xs-12">
+                    <%= f.submit "Submit", :type => "submit", :class => "btn btn-success btn-lg" %>
+                  </div>
+                </div>
+              <% end %>
             <% end %>
 
           </div>

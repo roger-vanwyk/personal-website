@@ -1,0 +1,73 @@
+<!-- ========== MENU ========== -->
+  <nav class="menu" id="theMenu">
+    <div class="menu-wrap">
+      <h1 class="logo"><a>Eric Gonzalez</a></h1>
+      <i class="icon-remove menu-close"></i>
+      <a href="/#home" class="smoothScroll">Home</a>
+      <a href="/#about" class="smoothScroll">About</a>
+      <a href="/#portfolio" class="smoothScroll">Portfolio</a>
+      <a href="/#contact" class="smoothScroll">Contact</a>
+      <a href="https://drive.google.com/file/d/0B-4Vah9LEYrLckRjbmNBM080NmM/view?usp=sharing" target="_blank">Resume</a>
+      <a href="https://github.com/Twinpair/" target = "blank"><i class="icon-github"></i></a>
+      <a href="https://www.linkedin.com/in/ericgonzalez1994" target = "blank"><i class="icon-linkedin"></i></a>
+      <a href="https://www.facebook.com/EricGonzalez1994" target = "blank"><i class="icon-facebook"></i></a>
+      <a href="https://twitter.com/twinpaireric" target = "blank"><i class="icon-twitter"></i></a>
+      <a href="https://www.instagram.com/ericg_1994/" target = "blank"><i class="icon-instagram"></i></a>
+    </div>
+    <div id="menuToggle"><i class="icon-reorder"></i></div>
+  </nav>
+
+  <!-- ========== CONTACT SECTION ========== -->
+  <section id="contact" name="contact">
+    <div style="margin-top: -70px;" id="f">
+      <div class="container">
+        <div class="row">
+          <h3>CONTACT ME</h3>
+          <div class="col-lg-6 col-lg-offset-3">
+            <%= form_for @contact do |f| %>
+
+              <% if @contact.errors.any? %>
+                <div class="alert alert-danger text-center">
+                  <h4><u>The form contains <%= pluralize(@contact.errors.count, "error") %></u></h4>
+                  <% @contact.errors.full_messages.each do |msg| %>
+                    <h4>- <%= msg %></h4>
+                  <% end %>
+                </div>
+              <% end %>
+
+              <div class="row control-group">
+                <div class="form-group col-xs-12 floating-label-form-group controls">
+                  <%= f.label :name, :style => "color: #fff5f5;" %> <span style="color:#f85c37;">*</span>
+                  <%= f.text_field :name, :type => "text", :class => "form-control", :placeholder => "Name", :id => "name", :required => true %>
+                </div>
+              </div>
+              <div class="row control-group">
+                <div class="form-group col-xs-12 floating-label-form-group controls">
+                  <%= f.label :email, :style => "color: #fff5f5;" %> <span style="color:#f85c37;">*</span>
+                  <%= f.text_field :email, :type => "email", :class => "form-control", :placeholder => "Email Address", :id => "email", :required => true %>
+                </div>
+              </div>
+              <div class="row control-group">
+                <div class="form-group col-xs-12 floating-label-form-group controls">
+                  <%= f.label :message, :style => "color: #fff5f5;" %> <span style="color:#f85c37;">*</span>
+                  <%= f.text_area :message, :rows => "5", :class => "form-control", :placeholder => "Message", :id => "message", :required => true %>
+                </div>
+              </div>
+              <div class="row control-group">
+                <div class="form-group col-xs-12 floating-label-form-group controls">
+                  <%= f.label :captcha, :style => "color: #fff5f5;" %> <span style="color:#f85c37;">*</span><br>
+                  <%= image_tag("captcha.png") %><br><br>
+                  <%= f.text_field :captcha, :type => "text", :class => "form-control", :placeholder => "Enter the text shown in the image", :id => "captcha", :required => true %>
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-group col-xs-12">
+                  <%= f.submit "Submit", :type => "submit", :class => "btn btn-success btn-lg" %>
+                </div>
+              </div>
+            <% end %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
