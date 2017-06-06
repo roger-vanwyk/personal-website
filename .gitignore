@@ -34,3 +34,6 @@ development.log
 
 Ignore gitignore.swp
 .gitignore.swp
+
+#Ignore development Enviromental Variables
+/config/local_env.yml
