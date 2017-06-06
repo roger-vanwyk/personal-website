@@ -55,7 +55,7 @@
               </div>
               <div class="row control-group">
                 <div class="form-group col-xs-12 floating-label-form-group controls">
-                  <%= f.label :captcha, :style => "color: #fff5f5;" %> <span style="color:#f85c37;">*</span><br>
+                  <label style="color: #fff5f5">Captcha <span style="color:#f85c37;">*</span></label><br>
                   <%= image_tag("captcha.png") %><br><br>
                   <%= f.text_field :captcha, :type => "text", :class => "form-control", :placeholder => "Enter the text shown in the image", :id => "captcha", :required => true %>
                 </div>
