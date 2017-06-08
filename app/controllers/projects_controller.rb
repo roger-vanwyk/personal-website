@@ -6,9 +6,9 @@ class ProjectsController < ApplicationController
 
     # I can edit and delete projects from this controller with @edit_button = true
     @edit_button = true
-    
+
     #Counter is used to add a row div every 3 projects
-    @counter = 0
+    @counter = 1
   end
 
   def new
