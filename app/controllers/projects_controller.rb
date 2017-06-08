@@ -8,7 +8,7 @@ class ProjectsController < ApplicationController
     @edit_button = true
 
     #Counter is used to add a row div every 3 projects
-    @counter = 1
+    @counter = 0
   end
 
   def new

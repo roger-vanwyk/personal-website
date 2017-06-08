@@ -5,7 +5,7 @@ class PagesController < ApplicationController
   	@projects = Project.all
 
   	#Counter is used to add a row div every 3 projects
-  	@counter = 1
+  	@counter = 0
   end
   
 end

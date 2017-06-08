@@ -1,4 +1,4 @@
-<% if @counter % 4 == 0 %>
+<% if @counter % 3 == 0 && @counter != 0%>
   </div>
   <div class="row" id="f">
 <% end %>    
@@ -11,7 +11,7 @@
         </a>
         <figure>
           <figcaption>
-            <h2 id="project-name"><%= project.name %> (<%= project.order_listed %>)</h2>
+            <h2 id="project-name"><%= project.name %> (<%= project.order_listed %>, <%= puts @counter %>)</h2>
             <p><%= project.description %></p>
           </figcaption>
         </figure>
