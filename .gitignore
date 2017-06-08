@@ -21,19 +21,22 @@ log
 # Ignore uploaded test images.
 /public/uploads
 
-#Ignore byebug history
+# Ignore byebug history.
 .byebug_history
 /.byebug_history
 /byebug_history
 
-#Ignore development log
+#Ignore development log.
 development.log
 
 #Ignore DS_store
 .DS_Store
 
-Ignore gitignore.swp
+# Ignore gitignore.swp.
 .gitignore.swp
 
-#Ignore development Enviromental Variables
+# Ignore development Enviromental Variables.
 /config/local_env.yml
+
+# Ignore uploaded test images.
+/public/uploads

@@ -1,4 +1,11 @@
 <%= form_for @project do |f| %>
+  
+  <div class="row control-group">
+    <div class="form-group col-xs-8 col-xs-offset-2 floating-label-form-group controls">
+      <%= f.label :picture, :style => "color: #fff5f5;", value: "Image" %>
+      <%= f.file_field :picture %>
+    </div>
+  </div>
   <div class="row control-group">
     <div class="form-group col-xs-8 col-xs-offset-2 floating-label-form-group controls">
       <%= f.label :name, :style => "color: #fff5f5;" %>
