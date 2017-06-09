@@ -12,6 +12,7 @@ class ContactsController < ApplicationController
   		flash[:success] = "I have received your message. I will be in touch with you soon."
       redirect_to "/#contact"
     else
+      @slash = "/"
       render :new
     end
   end
