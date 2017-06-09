@@ -8,7 +8,7 @@
  */
 
 body {
-  background-color: #f2f2f2;
+  background-color: #1a1a1a;;
     font-family: 'EB Garamond', serif;
     font-weight: 300;
     font-size: 16px;
@@ -73,10 +73,16 @@ a:after {
     padding: 0;
 }
 
+span{
+	color:#f85c37;
+}
 
-/* ==========================================================================
-   Wrap Sections
-   ========================================================================== */
+label{
+	color: white;
+}
+
+
+/* Header */
 
 #headerwrap {
 	background: url(lego.jpg) no-repeat center top;
@@ -101,17 +107,19 @@ a:after {
 
 #headerwrap h1 {
 	margin-top: 150px;
-	color: white;
+	color: #9696bf;
 	font-size: 70px;
 	font-weight: 700;
+	margin-top: 45px;
 }
 
 #headerwrap h3 {
-	color: white;
+	color: #9696bf;
 	font-size: 30px;
 	font-weight: 100;
     font-family: 'EB Garamond', serif;
     font-style: oblique;
+    margin-bottom: -15px;
 }
 
 #headerwrap .logo {
@@ -120,12 +128,43 @@ a:after {
 	margin-top: 15px;
 }
 
+.img-circle{
+	width:300px;
+	height:250px
+}
 
-/* Footer Wrap */
+/* About */
+
+#about{
+	margin-top: -40px;
+	padding-bottom: 70px;
+}
+
+#about #f{
+	padding-top: 60px;
+}
+
+/* Portfolio */
+
+#portfolio{
+	margin-top: -85px;
+}
+
+.doc{
+	margin-top: 5px;
+}
+
+/* Contact */
+
+#contact{
+	margin-top: -80px;
+}
+
+
+/* Footer */
 
 #f {
 	background: #1a1a1a;
-	padding-top: 70px;
 	padding-bottom: 70px;
 	text-align: center
 }
@@ -407,7 +446,14 @@ nav#footer p{
 	font-size: 14px;
 }
 
+/* Contact */
+
 #messages{
 	font-size: 23px;
+	color: white;
+}
+
+#messages h1{
+	color: white;
 }
 

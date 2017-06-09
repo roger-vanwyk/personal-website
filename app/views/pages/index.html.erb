@@ -8,9 +8,9 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
-            <h1 class="wp1" style="color: #9696bf; margin-top: 45px;">Eric Gonzalez</h1><br>
-            <h3 class="wp1" style="color: #9696bf; margin-bottom: -15px;"><b>Welcome to my website, come in and learn more about me!</b></h3><br><br><br>
-            <a href="#about" class="smoothScroll"><%= image_tag "profile.jpg", :class => "img-circle", :style => "width:300px;height:250px" %></a>
+            <h1>Eric Gonzalez</h1><br>
+            <h3><b>Welcome to my website, come in and learn more about me!</b></h3><br><br><br>
+            <a href="#about" class="smoothScroll"><%= image_tag "profile.jpg", :class => "img-circle" %></a>
           </div>
         </div>
       </div>
@@ -21,7 +21,7 @@
 
   <!-- ========== ABOUT SECTION ========== -->
   <section id="about" name="about">
-    <div style="margin-top: -55px;" id="f">
+    <div id="f">
       <div class="container">
         <div class="row">
           <h3>ABOUT ME</h3>
@@ -36,12 +36,14 @@
 
 
   <!-- ========== PORTFOLIO SECTION ========== -->  
-  <section id="portfolio" name="portfolio" class="latest-articles has-padding alternate-bg" style="background-color: #1a1a1a; margin-top: -55px;">
-    <div class="container text-center">
-      <div class="row" id="f">
-        <h3>PORTFOLIO</h3>
-        <p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
-        <%= render @projects %>
+  <section id="portfolio" name="portfolio" class="latest-articles has-padding alternate-bg">
+    <div id="f">
+      <div class="container text-center">
+        <div class="row" id="f">
+          <h3>PORTFOLIO</h3>
+          <p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
+          <%= render @projects %>
+        </div>
       </div>
     </div>
   </section>
@@ -49,14 +51,14 @@
 
   <!-- ========== CONTACT SECTION ========== -->
   <section id="contact" name="contact">
-    <div style="margin-top: -70px;" id="f">
+    <div id="f">
       <div class="container">
         <div class="row">
           <h3>CONTACT ME</h3>
           <p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
           <div class="col-lg-6 col-lg-offset-3">
             <p>Feel free to contact me through any of the methods listed below.<br>Also, don't forget to check out my <a href="https://drive.google.com/file/d/0B-4Vah9LEYrLckRjbmNBM080NmM/view?usp=sharing" target="_blank">resume</a>.</p>
-            <p>Phone: <span style="color:#f85c37;">(415)490-6568</span><br>
+            <p>Phone: <span>(415)490-6568</span><br>
             Email: <a href="mailto:Twinpaireric@gmail.com" ">Twinpaireric@gmail.com</a></p>
             <nav id="social">
               <ul class="social-buttons">
@@ -67,7 +69,7 @@
                 <li><a title = "Instagram" href="https://www.instagram.com/e_gonzilla/" target="_blank"><i class="fa fa-instagram" id = "instagramcircle"></i></a></li>
               </ul>
             </nav>
-            <p style = "color: white;">You can also leave me a message below:</p>
+            <p>You can also leave me a message below:</p>
             <%= render partial: "shared/contact_form" %>
           </div>
         </div>

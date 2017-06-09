@@ -1,28 +1,12 @@
 <!-- ========== MENU ========== -->
-  <nav class="menu" id="theMenu">
-    <div class="menu-wrap">
-      <h1 class="logo"><a>Eric Gonzalez</a></h1>
-      <i class="icon-remove menu-close"></i>
-      <a href="/#home" class="smoothScroll">Home</a>
-      <a href="/#about" class="smoothScroll">About</a>
-      <a href="/#portfolio" class="smoothScroll">Portfolio</a>
-      <a href="/#contact" class="smoothScroll">Contact</a>
-      <a href="https://drive.google.com/file/d/0B-4Vah9LEYrLckRjbmNBM080NmM/view?usp=sharing" target="_blank">Resume</a>
-      <a href="https://github.com/Twinpair/" target = "blank"><i class="icon-github"></i></a>
-      <a href="https://www.linkedin.com/in/ericgonzalez1994" target = "blank"><i class="icon-linkedin"></i></a>
-      <a href="https://www.facebook.com/EricGonzalez1994" target = "blank"><i class="icon-facebook"></i></a>
-      <a href="https://twitter.com/twinpaireric" target = "blank"><i class="icon-twitter"></i></a>
-      <a href="https://www.instagram.com/ericg_1994/" target = "blank"><i class="icon-instagram"></i></a>
-    </div>
-    <div id="menuToggle"><i class="icon-reorder"></i></div>
-  </nav>
+<%= render partial: "shared/nav_menu" %>
 
   <!-- ========== CONTACT SECTION ========== -->
-  <section id="contact" name="contact">
-    <div style="margin-top: -70px;" id="f">
+  <section name="contact">
+    <div id="f">
       <div class="container">
         <div class="row">
-          <h3>CONTACT ME</h3>
+          <h3><u>CONTACT ME</u></h3>
           <div class="col-lg-6 col-lg-offset-3">
             <%= render partial: "shared/contact_form" %>
           </div>
