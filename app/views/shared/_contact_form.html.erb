@@ -1,0 +1,48 @@
+<%= form_for @contact do |f| %>
+              <% if flash.key?("success") %>
+                <% flash.each do |message_type, message| %>
+                  <%= content_tag(:div, message, class: "alert alert-#{message_type} text-center", id: "body-up") %>
+                <% end %>
+              <% else %>
+              
+                <% if @contact.errors.any? %>
+                  <div class="alert alert-danger text-center">
+                    <h4><u>The form contains <%= pluralize(@contact.errors.count, "error") %></u></h4>
+                    <% @contact.errors.full_messages.each do |msg| %>
+                      <h4>- <%= msg %></h4>
+                    <% end %>
+                  </div>
+                <% end %>
+
+                <div class="row control-group">
+                  <div class="form-group col-xs-12 floating-label-form-group controls">
+                    <%= f.label :name, :style => "color: #fff5f5;" %> <span style="color:#f85c37;">*</span>
+                    <%= f.text_field :name, :type => "text", :class => "form-control", :placeholder => "Name", :id => "name", :required => true %>
+                  </div>
+                </div>
+                <div class="row control-group">
+                  <div class="form-group col-xs-12 floating-label-form-group controls">
+                    <%= f.label :email, :style => "color: #fff5f5;" %> <span style="color:#f85c37;">*</span>
+                    <%= f.text_field :email, :type => "email", :class => "form-control", :placeholder => "Email Address", :id => "email", :required => true %>
+                  </div>
+                </div>
+                <div class="row control-group">
+                  <div class="form-group col-xs-12 floating-label-form-group controls">
+                    <%= f.label :message, :style => "color: #fff5f5;" %> <span style="color:#f85c37;">*</span>
+                    <%= f.text_area :message, :rows => "5", :class => "form-control", :placeholder => "Message", :id => "message", :required => true %>
+                  </div>
+                </div>
+                <div class="row control-group">
+                  <div class="form-group col-xs-12 floating-label-form-group controls">
+                     <label style="color: #fff5f5">Captcha <span style="color:#f85c37;">*</span></label><br>
+                    <%= image_tag("captcha.png") %><br><br>
+                    <%= f.text_field :captcha, :type => "text", :class => "form-control", :placeholder => "Enter the text shown in the image", :id => "captcha", :required => true %>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-group col-xs-12">
+                    <%= f.submit "Submit", :type => "submit", :class => "btn btn-success btn-lg" %>
+                  </div>
+                </div>
+              <% end %>
+            <% end %>

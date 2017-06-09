@@ -1,20 +1,5 @@
   <!-- ========== MENU ========== -->
-  <nav class="menu" id="theMenu">
-    <div class="menu-wrap">
-      <h1 class="logo"><a>Eric Gonzalez</a></h1>
-      <a href="#home" target = "blank" class="smoothScroll nav-link">Home</a>
-      <a href="#about" target = "blank" class="smoothScroll nav-link">About</a>
-      <a href="#portfolio" target = "blank" class="smoothScroll nav-link">Portfolio</a>
-      <a href="#contact" target = "blank" class="smoothScroll nav-link">Contact</a>
-      <a href="https://drive.google.com/file/d/0B-4Vah9LEYrLckRjbmNBM080NmM/view?usp=sharing" target="_blank nav-link">Resume</a>
-      <a href="https://github.com/Twinpair/" target = "blank"><i class="icon-github"></i></a>
-      <a href="https://www.linkedin.com/in/ericgonzalez1994" target = "blank"><i class="icon-linkedin"></i></a>
-      <a href="https://www.facebook.com/EricGonzalez1994" target = "blank"><i class="icon-facebook"></i></a>
-      <a href="https://twitter.com/e_gonzilla" target = "blank"><i class="icon-twitter"></i></a>
-      <a href="https://www.instagram.com/e_gonzilla" target = "blank"><i class="icon-instagram"></i></a>
-    </div>
-    <div id="menuToggle"><i class="icon-reorder"></i></div>
-  </nav>
+  <%= render partial: "shared/nav_menu" %>
 
 
   <!-- ========== HEADER SECTION ========== -->
@@ -83,45 +68,7 @@
               </ul>
             </nav>
             <p style = "color: white;">You can also leave me a message below:</p>
-            <%= form_for @contact do |f| %>
-              <% if flash.key?("success") %>
-                <% flash.each do |message_type, message| %>
-                  <%= content_tag(:div, message, class: "alert alert-#{message_type} text-center", id: "body-up") %>
-                <% end %>
-              <% else %>
-                <div class="row control-group">
-                  <div class="form-group col-xs-12 floating-label-form-group controls">
-                    <%= f.label :name, :style => "color: #fff5f5;" %> <span style="color:#f85c37;">*</span>
-                    <%= f.text_field :name, :type => "text", :class => "form-control", :placeholder => "Name", :id => "name", :required => true %>
-                  </div>
-                </div>
-                <div class="row control-group">
-                  <div class="form-group col-xs-12 floating-label-form-group controls">
-                    <%= f.label :email, :style => "color: #fff5f5;" %> <span style="color:#f85c37;">*</span>
-                    <%= f.text_field :email, :type => "email", :class => "form-control", :placeholder => "Email Address", :id => "email", :required => true %>
-                  </div>
-                </div>
-                <div class="row control-group">
-                  <div class="form-group col-xs-12 floating-label-form-group controls">
-                    <%= f.label :message, :style => "color: #fff5f5;" %> <span style="color:#f85c37;">*</span>
-                    <%= f.text_area :message, :rows => "5", :class => "form-control", :placeholder => "Message", :id => "message", :required => true %>
-                  </div>
-                </div>
-                <div class="row control-group">
-                  <div class="form-group col-xs-12 floating-label-form-group controls">
-                     <label style="color: #fff5f5">Captcha <span style="color:#f85c37;">*</span></label><br>
-                    <%= image_tag("captcha.png") %><br><br>
-                    <%= f.text_field :captcha, :type => "text", :class => "form-control", :placeholder => "Enter the text shown in the image", :id => "captcha", :required => true %>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="form-group col-xs-12">
-                    <%= f.submit "Submit", :type => "submit", :class => "btn btn-success btn-lg" %>
-                  </div>
-                </div>
-              <% end %>
-            <% end %>
-
+            <%= render partial: "shared/contact_form" %>
           </div>
         </div>
       </div>
