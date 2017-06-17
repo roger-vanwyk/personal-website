@@ -1,0 +1,25 @@
+<div class="work-experience-entry">
+            <% if @edit_button %>
+              <%= link_to "Edit", edit_experience_url(experience.id), class: "pButton" %>&nbsp;&nbsp;
+              <%= link_to "Delete", experience, method: :delete, data: { confirm: "You sure?" }, class: "pButton" %>
+            <% end %>
+            <h2 class="work-experience-title"><a href="<%= experience.link %>" target="blank"><%= experience.name %> <span class="work-experience-link">(<%= experience.link.split("www.")[1].capitalize %>)</span></a></h2> 
+            <ul>
+              <li>
+                <div class="work-experience-desc">
+                  <figure>
+                    <a href="<%= experience.link %>" target="blank"><img src="<%= experience.picture.url %>" class="img-responsive" alt="<%= experience.name %>"></a>
+                  </figure>
+                  <div>
+                    <h3><strong>Position: </strong><%= experience.position %></h3>
+                    <ul class="work-exprience-points">
+                      <% experience.description.split(",").each do |point| %>
+                        <li><%= point %></li>   
+                      <% end %>  
+                    </ul>
+                  </div>
+                </div>
+                <div class="work-experience-date"><%= experience.date %></div>
+              </li>
+            </ul>
+          </div>  
