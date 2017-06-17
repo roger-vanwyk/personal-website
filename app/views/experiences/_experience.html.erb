@@ -1,6 +1,6 @@
 <div class="work-experience-entry">
             <% if @edit_button %>
-              <%= link_to "Edit", edit_experience_url(experience.id), class: "pButton" %>&nbsp;&nbsp;
+              <%= link_to "Edit (Order: #{experience.order_listed})", edit_experience_url(experience.id), class: "pButton" %>&nbsp;&nbsp;
               <%= link_to "Delete", experience, method: :delete, data: { confirm: "You sure?" }, class: "pButton" %>
             <% end %>
             <h2 class="work-experience-title"><a href="<%= experience.link %>" target="blank"><%= experience.name %> <span class="work-experience-link">(

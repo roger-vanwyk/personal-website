@@ -16,7 +16,7 @@
           </figcaption>
         </figure>
         <% if @edit_button %>
-          <%= link_to "Edit", edit_project_url(project.id), class: "pButton" %>&nbsp;&nbsp;
+          <%= link_to "Edit (Order: #{project.order_listed})", edit_project_url(project.id), class: "pButton" %>&nbsp;&nbsp;
           <%= link_to "Delete", project, method: :delete, data: { confirm: "You sure?" }, class: "pButton" %>
         <% else %>
           <% if project.website.include?("drive.google") %>
