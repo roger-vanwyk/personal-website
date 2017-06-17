@@ -31,8 +31,13 @@ class ProjectsController < ApplicationController
 
   def update
     @project = Project.find(params[:id])
+    # Save order_listed attribute to update accoridingly later
+    cache_order_listed = @project.order_listed
     if @project.update(project_params)
-      Project.increment_order(@project.order_listed, @project.id)
+      # Don't increment other order_listed attributes if order_listed is the same on the one being updated
+      if cache_order_listed != @project.order_listed
+        Project.increment_order(@project.order_listed, @project.id)
+      end
       redirect_to projects_url 
     else
       render :edit

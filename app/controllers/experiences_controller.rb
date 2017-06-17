@@ -29,8 +29,13 @@ class ExperiencesController < ApplicationController
 
   def update
     @experience = Experience.find(params[:id])
+    # Save order_listed attribute to update accoridingly later
+    cache_order_listed = @experience.order_listed
     if @experience.update(experience_params)
-      Experience.increment_order(@experience.order_listed, @experience.id)
+      #Don't increment other order_listed attributes if order_listed is the same on the one being updated
+      if cache_order_listed != @experience.order_listed
+        Experience.increment_order(@experience.order_listed, @experience.id)
+      end
       redirect_to experiences_url 
     else
       render :edit
