@@ -3,7 +3,7 @@
               <%= link_to "Edit (Order: #{experience.order_listed})", edit_experience_url(experience.id), class: "pButton" %>&nbsp;&nbsp;
               <%= link_to "Delete", experience, method: :delete, data: { confirm: "You sure?" }, class: "pButton" %>
             <% end %>
-            <h2 class="work-experience-title"><a href="<%= experience.link %>" target="blank"><%= experience.name %> <span class="work-experience-link">(
+            <h2 class="work-experience-title"><a href="<%= experience.link %>" target="_blank"><%= experience.name %> <span class="work-experience-link">(
               <% if experience.link.include?("www.") %>
                 <%= experience.link.split("www.")[1].capitalize %>
               <% else%>
@@ -14,7 +14,7 @@
               <li>
                 <div class="work-experience-desc">
                   <figure>
-                    <a href="<%= experience.link %>" target="blank"><img src="<%= experience.picture.url %>" class="img-responsive" alt="<%= experience.name %>"></a>
+                    <a href="<%= experience.link %>" target="_blank"><img src="<%= experience.picture.url %>" class="img-responsive" alt="<%= experience.name %>"></a>
                   </figure>
                   <div>
                     <h3><strong>Position: </strong><%= experience.position %></h3>
