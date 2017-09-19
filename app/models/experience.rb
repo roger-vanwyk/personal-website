@@ -1,6 +1,6 @@
 class Experience < ApplicationRecord
   #Image support via CarrierWave gem
-  mount_uploader :picture, PictureUploader
+  mount_uploader :picture, ExperienceUploader
 
   # Default order is set by project's order_listed attribute 
   default_scope -> { order(order_listed: :asc) }

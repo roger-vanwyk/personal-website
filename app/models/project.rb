@@ -1,6 +1,6 @@
 class Project < ApplicationRecord
   #Image support via CarrierWave gem
-  mount_uploader :picture, PictureUploader
+  mount_uploader :picture, ProjectUploader
 
   # A project's order_listed attribute entails were the project is on the order sequence when projects are displayed 
   # Default order is set by project's order_listed attribute 
