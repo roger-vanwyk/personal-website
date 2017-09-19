@@ -1,6 +1,6 @@
 class ProjectUploader < CarrierWave::Uploader::Base
   include CarrierWave::MiniMagick
-  process resize_to_limit: [100000, 225]
+  process resize_to_limit: [100000, 450]
 
   # Production uses Amazon Cloud Service for image upload, while development uses local folder
   if Rails.env.production?
