@@ -1,5 +1,5 @@
 class ExperiencesController < ApplicationController
-  before_filter :authenticate
+  before_action :authenticate
 
   def index
     @experiences = Experience.all
