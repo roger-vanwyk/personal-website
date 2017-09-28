@@ -1,19 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: MyString
-  link: MyString
-  position: MyString
-  description: MyString
-  date: MyString
-  picture: MyString
-  order_listed: 1
-
-two:
-  name: MyString
-  link: MyString
-  position: MyString
-  description: MyString
-  date: MyString
-  picture: MyString
+  id: 1
+  name: "experience"
+  link: "http://experience.com"
+  position: "developer"
+  description: "was a full-stack developer"
+  date: "11/21/2016 - 11/21/2017"
+  picture: 
   order_listed: 1

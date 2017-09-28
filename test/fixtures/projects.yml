@@ -1,17 +1,10 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: MyString
-  description: MyText
-  project_type: MyString
-  website: MyString
-  github: MyString
-  order_listed: 1
-
-two:
-  name: MyString
-  description: MyText
-  project_type: MyString
-  website: MyString
-  github: MyString
+  id: 1
+  name: "project"
+  description: "my project"
+  project_type: "solo"
+  website: "phttp://roject.com"
+  github: "http://projectgithub.com"
   order_listed: 1

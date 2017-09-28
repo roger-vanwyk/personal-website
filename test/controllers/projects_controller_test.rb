@@ -1,19 +1,32 @@
 require 'test_helper'
 
-class ProjectsControllerTest < ActionDispatch::IntegrationTest
-  test "should get index" do
-    get projects_index_url
-    assert_response :success
+class ProjectsControllerTest < ActionController::TestCase
+
+  test "index" do
+    get :index
+    assert_response 401
   end
 
-  test "should get new" do
-    get projects_new_url
-    assert_response :success
+  test "new" do
+    get :new
+    assert_response 401
   end
 
-  test "should get edit" do
-    get projects_edit_url
-    assert_response :success
+  test "create" do
+    get :create
+    assert_response 401
+  end
+
+  test "edit" do
+    project = projects(:one)
+    get :edit,  params: { id: project.id }
+    assert_response 401
+  end
+
+  test "destroy" do
+    project = projects(:one)
+    get :destroy, params: { id: project.id }
+    assert_response 401
   end
 
 end

@@ -1,14 +1,16 @@
 require 'test_helper'
 
 class ContactsControllerTest < ActionController::TestCase
-  test "should get index" do
+
+  test "index" do
     get :index
-    assert_response :success
+    assert_response 401
   end
 
-  test "should get create" do
-    get :create
-    assert_response :success
+  test "destroy" do
+    contact = contacts(:one)
+    get :destroy,  params: {id: contact.id }
+    assert_response 401
   end
 
 end

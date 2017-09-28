@@ -1,5 +1,5 @@
 class ContactsController < ApplicationController
-  before_filter :authenticate, only: :index
+  before_filter :authenticate, only: [:index, :destroy]
   
   def index
     @contacts = Contact.all
