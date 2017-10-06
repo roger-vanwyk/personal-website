@@ -3,13 +3,13 @@
 
 
   <!-- ========== HEADER SECTION ========== -->
-  <section id="home" name="home">
+  <section id="home">
     <div id="headerwrap">
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
             <h1>Eric Gonzalez</h1><br>
-            <h3><b>Welcome to my website, come in and learn more about me!</b></h3><br><br><br>
+            <h3><b>Hello, World.<br>Come in and learn about me.</b></h3><br><br>
             <a href="#about" class="smoothScroll"><%= image_tag "profile.jpg", :class => "img-circle" %></a>
           </div>
         </div>
@@ -18,32 +18,30 @@
   </section>
 
 
-
   <!-- ========== ABOUT SECTION ========== -->
-  <section id="about" name="about">
-    <div id="f">
-      <div class="container">
-        <div class="row">
-          <h3>ABOUT ME</h3>
-          <p class="centered"><i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i></p>
-          <div class="col-lg-8 col-lg-offset-2">
-            <h2 class="about-subtitle">Myself</h2>
-            <p class="align-left">I graduated from San Francisco State University with a Bachelor of Science Degree in Computer Science. I'm a software engineer / full stack developer that enjoys working in environments where I’m constantly needed and depended on. I am self-disciplined and always learning new things to get the job done.</p>
-            <h2 class="about-subtitle">Development Experience</h2>
-            <p class="align-left">I am adept with web development frameworks, particularly Ruby on Rails and Laravel. I have also worked with front-end JS frameworks such as React. I have experience with databases (MySQL, PostgreSQL, SQLite), object oriented languages (Java, C++), and industry tools (AWS, Pivotal Tracker, Slack, Travis-Cl). Feel free to check out my <a href="https://drive.google.com/file/d/0B-4Vah9LEYrLckRjbmNBM080NmM/view?usp=sharing" target="blank">resume</a> for more.</p>
-            <h2 class="about-subtitle">Interest</h2>
-            <p class="align-left">I'm very passionate about anything that has to do with technology. My hobbies include being outdoors, watching and playing sports (mostly soccer and basketball), and reading up on anything tech. In my free time you'll prabbaly find me playing video game, finding new music or taking a nap.</p>
-          </div>                
-        </div>
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <h3>ABOUT ME</h3>
+        <p class="centered"><i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i></p>
+        <div class="col-lg-8 col-lg-offset-2">
+          <h2 class="about-subtitle">Myself</h2>
+          <p class="align-left">Curiosity and an interest in technology drew me into the world of programming and development. I graduated from San Francisco State University with a Bachelor of Science Degree in Computer Science. I'm now a software engineer / full stack developer based in Los Angeles. I enjoy working in environments where I’m constantly needed and depended on. I am self-disciplined and always learning new things to get the job done.</p>
+          <h2 class="about-subtitle">Development Experience</h2>
+          <p class="align-left">I am adept with web development frameworks, particularly Ruby on Rails and Laravel. I have also worked with front-end JS frameworks such as React. I have experience with databases (MySQL, PostgreSQL, SQLite), object oriented languages (Java, C++), and industry tools (AWS, Pivotal Tracker, Slack, Travis-Cl). Feel free to check out my <a href="https://drive.google.com/file/d/0B-4Vah9LEYrLckRjbmNBM080NmM/view?usp=sharing" target="blank">resume</a> for more.</p>
+          <h2 class="about-subtitle">Interest</h2>
+          <p class="align-left">I'm very passionate about anything that has to do with technology. My hobbies include being outdoors, watching and playing sports (mostly soccer and basketball), and reading up on anything tech. In my free time you'll prabbaly find me playing video games, listening to new music or taking a nap.</p>
+        </div>                
       </div>
     </div>
   </section>
 
+
   <!-- ========== WORK EXPERIENCE SECTION ========== -->
-  <section name="work-experience" id="work-experience" class="latest-articles has-padding alternate-bg" >
+  <section id="work-experience" class="latest-articles has-padding alternate-bg">
     <div id="work-experience-layout">
       <div class="container">
-        <div class="row row-padded" id="f">
+        <div class="row row-padded">
           <div class="col-md-12">
             <h3>WORK EXPERIENCE</h3>
             <p class="centered"><i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i></p>
@@ -55,47 +53,43 @@
   </section>
   
 
-
   <!-- ========== PORTFOLIO SECTION ========== -->  
-  <section id="portfolio" name="portfolio" class="latest-articles has-padding alternate-bg">
-    <div id="f">
-      <div class="container text-center">
-        <div class="row" id="f">
-          <h3>PORTFOLIO</h3>
-          <p class="centered"><i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i></p>
-          <%= render @projects %>
-        </div>
+  <section id="portfolio" class="latest-articles has-padding alternate-bg">
+    <div class="container text-center">
+      <div class="row">
+        <h3>PORTFOLIO</h3>
+        <p class="centered"><i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i></p>
+        <%= render @projects %>
       </div>
     </div>
   </section>
 
 
   <!-- ========== CONTACT SECTION ========== -->
-  <section id="contact" name="contact">
-    <div id="f">
-      <div class="container">
-        <div class="row">
-          <h3>CONTACT ME</h3>
-          <p class="centered"><i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i></p>
-          <div class="col-lg-6 col-lg-offset-3">
-            <p>Feel free to contact me through any of the methods listed below.<br>Also, don't forget to check out my <a href="https://drive.google.com/file/d/0B-4Vah9LEYrLckRjbmNBM080NmM/view?usp=sharing" target="blank">resume</a>.</p>
-            <p>Email: <a href="mailto:Twinpaireric@gmail.com" ">Twinpaireric@gmail.com</a></p>
-            <nav id="social">
-              <ul class="social-buttons">
-                <li><a title = "Github" href="https://github.com/Twinpair/" target="blank"><i class="fa fa-github" id = "githubcircle"></i></a></li>
-                <li><a title = "Linked In" href="https://www.linkedin.com/in/eric-gonzalez-" target="blank"><i class="fa fa-linkedin" id = "linkedincircle"></i></a></li>
-                <li><a title = "Facebook" href="https://www.facebook.com/egonzilla" target="blank"><i class="fa fa-facebook" id = "facebookcircle"></i></a></li>
-                <li><a title = "Twitter" href="https://twitter.com/e_gonzilla" target="blank"><i class="fa fa-twitter" id = "twittercircle"></i></a></li>
-                <li><a title = "Instagram" href="https://www.instagram.com/e_gonzilla/" target="blank"><i class="fa fa-instagram" id = "instagramcircle"></i></a></li>
-              </ul>
-            </nav>
-            <p>You can also leave me a message here:</p>
-            <%= render partial: "shared/contact_form" %>
-          </div>
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <h3>CONTACT ME</h3>
+        <p class="centered"><i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i></p>
+        <div class="col-lg-6 col-lg-offset-3">
+          <p>Feel free to contact me through any of the methods listed below.<br>Also, don't forget to check out my <a href="https://drive.google.com/file/d/0B-4Vah9LEYrLckRjbmNBM080NmM/view?usp=sharing" target="blank">resume</a>.</p>
+          <p>Email: <a href="mailto:Twinpaireric@gmail.com">Twinpaireric@gmail.com</a></p>
+          <nav id="social">
+            <ul class="social-buttons">
+              <li><a title = "Github" href="https://github.com/Twinpair/" target="blank"><i class="fa fa-github" id = "githubcircle"></i></a></li>
+              <li><a title = "Linked In" href="https://www.linkedin.com/in/eric-gonzalez-" target="blank"><i class="fa fa-linkedin" id = "linkedincircle"></i></a></li>
+              <li><a title = "Facebook" href="https://www.facebook.com/egonzilla" target="blank"><i class="fa fa-facebook" id = "facebookcircle"></i></a></li>
+              <li><a title = "Twitter" href="https://twitter.com/e_gonzilla" target="blank"><i class="fa fa-twitter" id = "twittercircle"></i></a></li>
+              <li><a title = "Instagram" href="https://www.instagram.com/e_gonzilla/" target="blank"><i class="fa fa-instagram" id = "instagramcircle"></i></a></li>
+            </ul>
+          </nav>
+          <p>You can also leave me a message here:</p>
+          <%= render partial: "shared/contact_form" %>
         </div>
       </div>
     </div>
   </section>
+
 
   <!-- ========== FOOTER ========== -->
   <nav id="footer">

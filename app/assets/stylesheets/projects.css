@@ -429,9 +429,6 @@ section.get-started h2 {
         font-size: 30px;
         line-height: 40px
     }
-    .has-padding {
-        padding: 80px 0
-    }
     .has-padding-tall {
         padding: 80px 0
     }
@@ -474,6 +471,6 @@ section.get-started h2 {
     }
 }
 
-#project-name {
+.project-name {
     color: white;
 }
