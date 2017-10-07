@@ -1,3 +1,5 @@
+
+// ========== Smooth Scroll ==========
 // Select all links with hashes
 $('a[href*="#"]')
   // Remove links that don't actually link to anything
@@ -43,3 +45,12 @@ $('a[href*="#"]')
 		$('#theMenu').toggleClass('menu-open');
 	});
 })(jQuery)
+
+
+// ========== Toggle Theme Button ==========
+$(document).ready(function(){
+    $('a.toggler').click(function(){
+      $('body').toggleClass('body-light');
+        $(this).toggleClass('off');
+    });
+});

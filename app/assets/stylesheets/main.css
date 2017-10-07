@@ -4,19 +4,20 @@ body {
   font-family: 'EB Garamond', serif;
   font-weight: 300;
   font-size: 16px;
-  color: #555;
-
+  color: white;
   -webkit-font-smoothing: antialiased;
   -webkit-overflow-scrolling: touch;
   text-align: center;
 }
+.body-light {
+  background-color: #fefcf6;
+  color: black;
+}
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Oswald', sans-serif;
   font-weight: 300;
-  color: #333;
 }
 h3{
-  color: white;
   font-size: 28px;
   font-weight: 700;
   letter-spacing: 1px;
@@ -26,7 +27,6 @@ p {
   margin-bottom: 25px;
   font-weight: 100;
   font-size: 20px;
-  color: white;
 }
 a {
   color: #f85c37;
@@ -66,15 +66,11 @@ hr {
 .red_span{
 	color:#f85c37;
 }
-label{
-	color: white;
-}
 .align-left{
   text-align: left;
 }
 .fa-circle {
   font-size: 8px;
-  color: #fff;
   padding: 3px;
 }
 .emphasize{
@@ -271,6 +267,21 @@ label{
 
 
 /*===== ABOUT =====*/
+a.toggler {
+    background: black;
+    cursor: pointer;
+    border: 2px solid #c1c5c4;
+    border-right-width: 30px;
+    padding: 0 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all .5s ease;
+}
+a.toggler.off {
+    background: white;
+    border-right-width: 2px;
+    border-left-width: 30px;
+}
 #about h2{
   color: #f85c37;
 }
@@ -338,7 +349,6 @@ label{
   border-bottom: none;
   float: left;
   width: 100%;
-  color: white;
   text-align: left;
   font-size: 20px;
 }
@@ -375,7 +385,6 @@ label{
   margin: 0 0 25px 0;
   padding: 0;
   font-size: 23px;
-  color: white;
   text-align: left;
 }
 #work-experience-layout .work-experience-entry ul li .work-experience-date {
@@ -449,10 +458,6 @@ nav#social p{
 #social i.fa#linkedincircle:hover{
 	background: #4875B4;
 	border-color: #f85c37;
-	color: white;
-}
-nav#footer{
-	background: #1a1a1a;
 	color: white;
 }
 ul.footer-social li{

@@ -173,7 +173,6 @@
     font-weight: 500;
     line-height: 30px;
     padding: 15px 10px 10px 0;
-    color: #414A52
 }
 
 .latest-articles figcaption h2:after {
@@ -469,8 +468,4 @@ section.get-started h2 {
     .latest-articles select#inputArticle-Sort {
         margin: 20px 0
     }
-}
-
-.project-name {
-    color: white;
 }
