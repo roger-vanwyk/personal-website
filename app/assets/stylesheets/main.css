@@ -1,6 +1,6 @@
 /*===== SITE WIDE CSS =====*/
 body {
-  background-color: #1a1a1a;
+  background-color: #141d26;
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -10,7 +10,7 @@ body {
   text-align: center;
 }
 .body-light {
-  background-color: #fefcf6;
+  background-color: #fdf9ef;
   color: black;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -273,9 +273,9 @@ hr {
 
 /*===== ABOUT =====*/
 a.toggler {
-    background: black;
+    background: #141d26;
     cursor: pointer;
-    border: 2px solid #c1c5c4;
+    border: 2px solid #dfe6fb;
     border-right-width: 30px;
     padding: 0 5px;
     border-radius: 5px;
@@ -283,7 +283,7 @@ a.toggler {
     transition: all .5s ease;
 }
 a.toggler.off {
-    background: white;
+    background: #fdf9ef;
     border-right-width: 2px;
     border-left-width: 30px;
 }
