@@ -85,8 +85,11 @@ hr {
   color: #5cb85c;
 }
 .tech-logo{
-  height: 2.6em;
-  margin: 3px 6px;
+  height: 3em;
+  margin: 10px 5px;
+}
+.sub-title{
+  margin: 20px 0;
 }
 
 
