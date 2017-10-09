@@ -3,13 +3,16 @@
               <%= link_to "Edit (Order: #{experience.order_listed})", edit_experience_url(experience.id), class: "btn btn-success btn-lg" %>
               <%= link_to "Delete", experience, method: :delete, data: { confirm: "You sure?" }, class: "btn btn-success btn-lg" %>
             <% end %>
-            <h3 class="work-experience-title"><a href="<%= experience.link %>" target="blank"><%= experience.name %> <span class="work-experience-link">(
+            <h3 class="work-experience-title"><a href="<%= experience.link %>" target="blank"><%= experience.name %> 
+              <span class="work-experience-link">(
               <% if experience.link.include?("www.") %>
                 <%= experience.link.split("www.")[1].capitalize %>
               <% else%>
                 <%= experience.link.split("//")[1].capitalize %>
               <% end %>
-              )</span></a></h3> 
+              )</span></a></h3>
+              <h4 class="work-experience-position col-sm-6"><%= experience.position %></h4> 
+              <h4 class="work-experience-date col-sm-6"><%= experience.date %></h4>
             <ul>
               <li>
                 <div class="work-experience-desc">
@@ -17,7 +20,6 @@
                     <a href="<%= experience.link %>" target="blank"><img src="<%= experience.picture.url %>" class="img-responsive" alt="<%= experience.name %>"></a>
                   </figure>
                   <div>
-                    <h4><strong>Position: </strong><%= experience.position %></h4>
                     <ul class="work-exprience-points">
                       <% experience.description.split(",").each do |point| %>
                         <li><%= point %></li>   
@@ -25,7 +27,6 @@
                     </ul>
                   </div>
                 </div>
-                <h4 class="work-experience-date"><%= experience.date %></h4>
               </li>
             </ul>
           </div>  
