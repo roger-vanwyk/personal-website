@@ -1,7 +1,7 @@
 # Personal Website - Eric Gonzalez
 
 
-Visit the website: http://www.ericgonzalez1994.com/
+Visit the website: https://www.eric-gonzalez.com/
 
 
 Version Information:
