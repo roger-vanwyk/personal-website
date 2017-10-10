@@ -425,8 +425,15 @@ a.toggler.off {
 }
 
 /*===== PORTFOLIO =====*/
-.btn-success{
+.btn-danger{
   margin: 5px 5px;
+  background-color: #df5231;
+  border-color: #7c2e1b;
+}
+.btn-danger:hover, 
+.btn-danger:active{
+  background-color: #ad4026;
+  border-color: #7c2e1b;
 }
 .article-post p{
   text-align: left;

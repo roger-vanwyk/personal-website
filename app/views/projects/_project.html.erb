@@ -16,17 +16,17 @@
           </figcaption>
         </figure>
         <% if @edit_button %>
-          <%= link_to "Edit (Order: #{project.order_listed})", edit_project_url(project.id), class: "btn btn-success btn-lg" %>
-          <%= link_to "Delete", project, method: :delete, data: { confirm: "You sure?" }, class: "btn btn-success btn-lg" %>
+          <%= link_to "Edit (Order: #{project.order_listed})", edit_project_url(project.id), class: "btn btn-danger btn-lg" %>
+          <%= link_to "Delete", project, method: :delete, data: { confirm: "You sure?" }, class: "btn btn-danger btn-lg" %>
         <% else %>
           <% if project.website.include?("drive.google") %>
-            <%= link_to "Download", project.website, target: "blank", class: "btn btn-success btn-lg" %>
+            <%= link_to "Download", project.website, target: "blank", class: "btn btn-danger btn-lg" %>
           <% else %>
-            <%= link_to "Visit Website", project.website, target: "blank", class: "btn btn-success btn-lg" %>
+            <%= link_to "Visit Website", project.website, target: "blank", class: "btn btn-danger btn-lg" %>
           <% end %>
-        <%= link_to "Source Code", project.github, target: "blank", class: "btn btn-success btn-lg" %>
+        <%= link_to "Source Code", project.github, target: "blank", class: "btn btn-danger btn-lg" %>
           <% if !project.documentation.nil? && !project.documentation.blank? %>
-            <%= link_to "View Documentation", project.documentation, target: "blank", class: "btn btn-success btn-lg doc" %>
+            <%= link_to "View Documentation", project.documentation, target: "blank", class: "btn btn-danger btn-lg doc" %>
           <% end %>
         <% end %>
       </article>
