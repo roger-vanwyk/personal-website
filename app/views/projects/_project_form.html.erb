@@ -14,6 +14,12 @@
   </div>
   <div class="row control-group">
     <div class="form-group col-xs-8 col-xs-offset-2 floating-label-form-group controls">
+      <%= f.label :tools %>
+      <%= f.text_field :tools, :type => "text", :class => "form-control", :placeholder => "Tools", :id => "tools", :required => true %>
+    </div>
+  </div>
+  <div class="row control-group">
+    <div class="form-group col-xs-8 col-xs-offset-2 floating-label-form-group controls">
       <%= f.label :description %>
       <%= f.text_area :description, :rows => "5", :class => "form-control", :placeholder => "Description", :id => "description", :required => true %>
     </div>

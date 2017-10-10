@@ -490,7 +490,9 @@ a.toggler.off {
 .latest-articles figcaption h2 {
     font-size: 22px;
     line-height: 30px;
-    padding: 15px 0;
+}
+.latest-articles figcaption h4 {
+    margin-bottom: 20px;
 }
 
 .latest-articles figcaption h2:after {
