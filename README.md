@@ -1,11 +1,10 @@
-== Personal Website - Eric Gonzalez
-
+# Personal Website - Eric Gonzalez
 
 
 Visit the website: http://www.ericgonzalez1994.com/
 
 
-Version and Deployment instructions:
+Version Information:
 
 * Ruby version - 2.4
 
