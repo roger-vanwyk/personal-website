@@ -1,7 +1,7 @@
 # Personal Website - Eric Gonzalez
 
 
-Visit the website: https://www.eric-gonzalez.com/
+Visit the website: <a href="www.eric-gonzalez.com/">eric-gonzalez.com</a>
 
 
 Version Information:
