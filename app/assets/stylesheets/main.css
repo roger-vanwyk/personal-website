@@ -289,6 +289,7 @@ a.toggler.off {
 	font-size: 70px;
 	font-weight: 700;
 	margin-top: 45px;
+  text-shadow: 1px 1px 0px #000000;
 }
 #headerwrap h3 {
 	color: #9696bf;
@@ -296,15 +297,22 @@ a.toggler.off {
 	font-weight: 100;
   font-style: oblique;
   margin-bottom: -15px;
+  text-shadow: 1px 1px 0px #000000;
 }
 #headerwrap .logo {
 	text-align: left;
 	margin-left: 20px;
 	margin-top: 15px;
 }
-.img-circle{
-	width:300px;
-	height:250px
+@media screen and (max-width: 768px) {
+  .img-circle{
+    width: 90%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .img-circle{
+    width: 30%;
+  }
 }
 
 
