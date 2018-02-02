@@ -41,9 +41,10 @@ group :development do
 end
 
 group :production do
-  gem 'fog',  '1.40.0'
   # Use postreSQL for active record
-  gem 'pg'
+  gem 'pg', '~> 0.20'
+  gem 'rails_12factor'
+  gem 'fog',  '1.40.0'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
