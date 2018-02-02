@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '5.0.2'
+# Use postreSQL for active record
+gem 'pg'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -19,7 +21,6 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Image upload and resizing gems for development and production
 gem 'carrierwave',             '1.1.0'
 gem 'mini_magick',             '4.7.0'
-gem 'fog',                     '1.40.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -42,7 +43,7 @@ group :development do
 end
 
 group :production do
-  gem 'pg'
+  gem 'fog',  '1.40.0'
   gem 'rails_12factor'
 end
 
