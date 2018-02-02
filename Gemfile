@@ -1,9 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '5.0.2'
-# Use postreSQL for active record
-gem 'pg'
+gem 'rails', '5.0.6'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -44,7 +42,8 @@ end
 
 group :production do
   gem 'fog',  '1.40.0'
-  gem 'rails_12factor'
+  # Use postreSQL for active record
+  gem 'pg'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
