@@ -8,7 +8,7 @@ Version Information:
 
 * Ruby version - 2.4
 
-* Rails version - 5.0.1
+* Rails version - 5.0.6
 
 * Database - Postgres
 
