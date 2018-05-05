@@ -6,7 +6,7 @@ class ContactMailerTest < ActionMailer::TestCase
     mail = ContactMailer.contact_message(contact)
     assert_equal "Contact message", mail.subject
     assert_equal ["twinpaireric@gmail.com"], mail.to
-    assert_equal ["message@ericgonzalez1994.com"], mail.from
+    assert_equal ["message@eric-gonzalez.com"], mail.from
     assert_match "#{contact.message.encode}", mail.body.encoded
   end
 
