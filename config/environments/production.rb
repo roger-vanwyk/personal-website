@@ -70,16 +70,16 @@ Rails.application.configure do
   # Mailer configuaration (Using SendGrid)
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.delivery_method = :smtp
-  host = 'rocky-fjord-38167.herokuapp.com'
+  host = 'eric-gonzalez.herokuapp.com'
   config.action_mailer.default_url_options = { host: host }
   ActionMailer::Base.smtp_settings = {
-    :address        => 'smtp.sendgrid.net',
-    :port           => '587',
-    :authentication => :plain,
-    :user_name      => ENV['SENDGRID_USERNAME'],
-    :password       => ENV['SENDGRID_PASSWORD'],
-    :domain         => 'heroku.com',
-    :enable_starttls_auto => true
+    address:              'smtp.sendgrid.net',
+    port:                 '587',
+    authentication:       plain,
+    user_name:            ENV['SENDGRID_USERNAME'],
+    password:             ENV['SENDGRID_PASSWORD'],
+    domain:               'heroku.com',
+    enable_starttls_auto:  true
   }
 
   # Enable locale fallbacks for I18n (makes lookups for any locale fall back to
