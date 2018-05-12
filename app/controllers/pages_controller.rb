@@ -1,7 +1,8 @@
 class PagesController < ApplicationController
 
   def index
-  	@projects = Project.all
+  	@client_work = Project.where(project_type: 'Client Work')
+    @projects = Project.where.not(project_type: 'Client Work')
   	@experiences = Experience.all
   	@contact = Contact.new
 

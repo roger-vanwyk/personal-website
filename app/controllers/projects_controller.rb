@@ -2,7 +2,8 @@ class ProjectsController < ApplicationController
   before_action :authenticate
 
   def index
-  	@projects = Project.all
+  	@client_work = Project.where(project_type: 'Client Work')
+    @projects = Project.where.not(project_type: 'Client Work')
 
     # I can edit and delete projects from this controller with @edit_button = true
     @edit_button = true
