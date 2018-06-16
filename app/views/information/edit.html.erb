@@ -1,0 +1,67 @@
+<div class="container">
+  <div class="row">
+    <%= link_to "Go Back", information_index_path %>
+    <h3><u>Edit Information</u></h3><br>
+    <%= form_for @information do |f| %>
+		  <div class="row control-group">
+		    <div class="form-group col-xs-8 col-xs-offset-2 floating-label-form-group controls">
+		      <%= f.label :headline %>
+		      <%= f.text_field :headline, :type => "text", :class => "form-control", :required => true %>
+		    </div>
+		  </div>
+		  <div class="row control-group">
+		    <div class="form-group col-xs-8 col-xs-offset-2 floating-label-form-group controls">
+		      <%= f.label :about_myself, 'About Myself' %>
+		      <%= f.text_area :about_myself, :rows => "5", :type => "text", :class => "form-control", :required => true %>
+		    </div>
+		  </div>
+		  <div class="row control-group">
+		    <div class="form-group col-xs-8 col-xs-offset-2 floating-label-form-group controls">
+		      <%= f.label :development_experience, 'Development Experience' %>
+		      <%= f.text_area :development_experience, :rows => "5", :type => "text", :class => "form-control", :required => true %>
+		    </div>
+		  </div>
+		  <div class="row control-group">
+		    <div class="form-group col-xs-8 col-xs-offset-2 floating-label-form-group controls">
+		      <%= f.label :interests, 'Interests' %>
+		      <%= f.text_area :interests, :rows => "5", :type => "text", :class => "form-control", :required => true %>
+		    </div>
+		  </div>
+		  <div class="row control-group">
+		    <div class="form-group col-xs-8 col-xs-offset-2 floating-label-form-group controls">
+		      <%= f.label :github %>
+		      <%= f.text_field :github, :type => "text", :class => "form-control", :required => true %>
+		    </div>
+		  </div>
+		  <div class="row control-group">
+		    <div class="form-group col-xs-8 col-xs-offset-2 floating-label-form-group controls">
+		      <%= f.label :linkedin %>
+		      <%= f.text_field :linkedin, :type => "text", :class => "form-control", :required => true %>
+		    </div>
+		  </div>
+		  <div class="row control-group">
+		    <div class="form-group col-xs-8 col-xs-offset-2 floating-label-form-group controls">
+		      <%= f.label :facebook %>
+		      <%= f.text_field :facebook, :type => "text", :class => "form-control", :required => true %>
+		    </div>
+		  </div>
+		  <div class="row control-group">
+		    <div class="form-group col-xs-8 col-xs-offset-2 floating-label-form-group controls">
+		      <%= f.label :instagram %>
+		      <%= f.text_field :instagram, :type => "text", :class => "form-control", :required => true %>
+		    </div>
+		  </div>
+		  <div class="row control-group">
+		    <div class="form-group col-xs-8 col-xs-offset-2 floating-label-form-group controls">
+		      <%= f.label :resume_link %>
+		      <%= f.text_field :resume_link, :type => "text", :class => "form-control", :required => true %>
+		    </div>
+		  </div>
+		  <div class="row">
+		    <div class="form-group col-xs-8 col-xs-offset-2">
+		      <%= f.submit "Submit", :type => "submit", :class => "btn btn-danger btn-lg" %>
+		    </div>
+		  </div>
+		<% end %>
+  </div>
+</div>

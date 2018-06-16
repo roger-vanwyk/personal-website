@@ -1,0 +1,16 @@
+<div class="container">
+	<div class="row text-left">
+		<%= link_to "Home", root_url %> | <%= link_to "Edit Information", edit_information_path(1) %>
+		<h1 class="text-center">Information</h1>
+		<h3>Headline: <%= @information.headline %></h3>
+		<h3>About Myself: <%= @information.about_myself %></h3> 
+		<h3>Development Experience: <%= @information.development_experience %></h3> 
+		<h3>Interests: <%= @information.interests %></h3> 
+		<h3>Github: <%= @information.github %></h3> 
+		<h3>Linkedin: <%= @information.linkedin %></h3> 
+		<h3>Facebook: <%= @information.facebook %></h3> 
+		<h3>Instagram: <%= @information.instagram %></h3> 
+		<h3>Resume Link: <%= @information.resume_link %></h3> 
+	</div>
+</div>
+ 

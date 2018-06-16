@@ -1,10 +1,8 @@
 Rails.application.routes.draw do
-
-  resources :experiences
   root 'pages#index'
 
   resources :contacts
-
   resources :projects
-
+  resources :experiences
+  resources :information, only: [:index, :edit, :update]
 end
