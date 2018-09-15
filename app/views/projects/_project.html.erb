@@ -25,7 +25,11 @@
           <% else %>
             <%= link_to "Visit Website", project.website, target: "blank", class: "btn btn-danger btn-lg" %>
           <% end %>
-        <%= link_to "Source Code", project.github, target: "blank", class: "btn btn-danger btn-lg" %>
+
+          <% unless project.project_type.eql?('Client Work')%>
+            <%= link_to "Source Code", project.github, target: "blank", class: "btn btn-danger btn-lg" %>
+          <% end %>
+          
           <% if !project.documentation.nil? && !project.documentation.blank? %>
             <%= link_to "View Documentation", project.documentation, target: "blank", class: "btn btn-danger btn-lg doc" %>
           <% end %>
